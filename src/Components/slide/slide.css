@@ -1,0 +1,23 @@
+.click_left,
+.click_right {
+    position: absolute;
+    font-size: 40px;
+    color: #ccc;
+cursor: pointer;
+}
+.click_left:hover,
+.click_right:hover{
+color: rgb(129, 126, 126);
+}
+.click_left {
+    top: 50%;
+    transform: translateY(-50%);
+    left: 6%;
+
+}
+
+.click_right {
+    top: 50%;
+    right: 6%;
+    transform: translateY(-50%);
+}

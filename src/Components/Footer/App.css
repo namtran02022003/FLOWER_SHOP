@@ -1,0 +1,27 @@
+.footer_ul_icons {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_ul_icons li i {
+
+    padding: 0 10px 0 0;
+}
+
+.footer_ul_icons li {
+    padding: 5px 0;
+    cursor: pointer;
+    color: rgb(42, 42, 46);
+}
+
+.footer_ul_icons li:hover {
+    color: rgb(153, 131, 131) !important;
+}
+#footer{
+    font-family:Arial, Helvetica, sans-serif
+}
+.bg_footer_bottom{
+   color: #666;
+   background-color:  rgb(238, 230, 232);
+  
+}
