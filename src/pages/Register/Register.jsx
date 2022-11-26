@@ -3,9 +3,6 @@ import Url_face from './../../images/face.png'
 import Url_gg from "../../images/gg.png"
 import Url_ins from "../../images/ins.jpeg"
 
-
-
-
 export default function Register() {
     const { register, handleSubmit, formState: { errors } } = useForm()
 
@@ -101,11 +98,6 @@ export default function Register() {
                                         <p className="m-0">vui long nhap lại mat khau</p>
                                     )}
                                 </div>
-
-
-
-
-
                                 <div className="text-center">
 
                                     <button type="submit" className="btn_form btn_login">
@@ -116,7 +108,6 @@ export default function Register() {
                                         <img src={Url_gg} alt="gg" width="50px" title="google" />
                                         <img src={Url_face} alt="gg" width="50px" title="facebook" />
                                         <img src={Url_ins} alt="gg" width="50px" title="facebook" />
-
                                     </p>
                                 </div>
                                 <p>bạn đã có tài khoản? đăng nhập ngay</p>

@@ -1,6 +1,6 @@
 import {memo} from 'react'
 function HeaderBottom({ data }) {
-    console.log('render header bottom')
+    // console.log('render header bottom')
     return (
         <div className="heder_bottom container">
             <div className="d-flex justify-content-around">

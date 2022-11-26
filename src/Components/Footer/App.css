@@ -11,7 +11,7 @@
 .footer_ul_icons li {
     padding: 5px 0;
     cursor: pointer;
-    color: rgb(42, 42, 46);
+    color: rgb(73, 73, 78);
 }
 
 .footer_ul_icons li:hover {
@@ -22,6 +22,5 @@
 }
 .bg_footer_bottom{
    color: #666;
-   background-color:  rgb(238, 230, 232);
-  
+   background-color: rgb(251 248 249);
 }

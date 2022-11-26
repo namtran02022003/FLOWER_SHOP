@@ -1,0 +1,3153 @@
+{
+  "category": [
+    {
+      "category_id": 1,
+      "category_name": "hoa cưới",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1"
+    },
+    {
+      "category_id": 2,
+      "category_name": "hoa tình yêu",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1"
+    },
+    {
+      "category_id": 3,
+      "category_name": "hoa khai trương",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1"
+    },
+    {
+      "category_id": 4,
+      "category_name": "bó hoa",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1"
+    },
+    {
+      "category_id": 5,
+      "category_name": "giỏ hoa",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1"
+    },
+    {
+      "category_id": 6,
+      "category_name": "hoa tươi",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1"
+    },
+    {
+      "category_id": 7,
+      "category_name": "hoa sinh nhật",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1"
+    },
+    {
+      "category_id": 8,
+      "category_name": "hoa hồng",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1"
+    },
+    {
+      "category_id": 9,
+      "category_name": "hoa lan",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1"
+    },
+    {
+      "category_id": 10,
+      "category_name": "hoa tang",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1"
+    }
+  ],
+  "product": [
+    {
+      "product_name": "Hoa Cầm Tay Cô Dâu Môi Kề Môi",
+      "price": 100000,
+      "url_img": "../src/images/hc1.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc1.jpg",
+        "../src/images/hc1.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 1
+    },
+    {
+      "product_name": "Hoa Cầm Tay Cô Dâu Chung Tình",
+      "price": 100000,
+      "url_img": "../src/images/hc2.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc2.jpg",
+        "../src/images/hc2.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 2
+    },
+    {
+      "product_name": "Hoa Cầm Tay Cô Dâu Chung Tình ",
+      "price": 100000,
+      "url_img": "../src/images/hc3.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc3.jpg",
+        "../src/images/hc3.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 3
+    },
+    {
+      "product_name": "Hoa Cưới Baby Hồng ",
+      "price": 100000,
+      "url_img": "../src/images/hc4.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc4.jpg",
+        "../src/images/hc4.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 4
+    },
+    {
+      "product_name": "Hoa Cưới Cầm Tay Ngày Chung Đôi",
+      "price": 100000,
+      "url_img": "../src/images/hc5.png",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc5.png",
+        "../src/images/hc5.png"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 5
+    },
+    {
+      "product_name": "Hoa Cưới Mắt Cười",
+      "price": 100000,
+      "url_img": "../src/images/hc6.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc6.jpg",
+        "../src/images/hc6.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 6
+    },
+    {
+      "product_name": "Hoa Cầm Tay Cô Dâu Yêu Chân Thành",
+      "price": 100000,
+      "url_img": "../src/images/hc7.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc7.jpg",
+        "../src/images/hc7.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 7
+    },
+    {
+      "product_name": "Hoa Cưới Ấm Áp",
+      "price": 100000,
+      "url_img": "../src/images/hc8.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc8.jpg",
+        "../src/images/hc8.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 8
+    },
+    {
+      "product_name": "Hoa Cưới Tiếng Yêu",
+      "price": 100000,
+      "url_img": "../src/images/hc9.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc9.jpg",
+        "../src/images/hc9.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 9
+    },
+    {
+      "product_name": "Hoa Cầm Tay Cô Dâu Ngát Xanh",
+      "price": 100000,
+      "url_img": "../src/images/hc10.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc10.jpg",
+        "../src/images/hc10.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 10
+    },
+    {
+      "product_name": "Hạnh Phúc Lứa Đôi",
+      "price": 100000,
+      "url_img": "../src/images/hc11.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc11.jpg",
+        "../src/images/hc11.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 11
+    },
+    {
+      "product_name": "Hoa Cầm Tay Cô Dâu Vườn Tình Yêu",
+      "price": 100000,
+      "url_img": "../src/images/hc12.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc12.jpg",
+        "../src/images/hc12.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 12
+    },
+    {
+      "product_name": "Hoa Cầm Tay Cô Dâu Kim Cương",
+      "price": 100000,
+      "url_img": "../src/images/hc13.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc13.jpg",
+        "../src/images/hc13.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 13
+    },
+    {
+      "product_name": "Ngày Sánh Đôi",
+      "price": 100000,
+      "url_img": "../src/images/hc14.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc14.jpg",
+        "../src/images/hc14.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 14
+    },
+    {
+      "product_name": "Hoa Cưới Ngày Rạng Ngời",
+      "price": 100000,
+      "url_img": "../src/images/hc15.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc15.jpg",
+        "../src/images/hc15.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 15
+    },
+    {
+      "product_name": "Chung Một Nhà ",
+      "price": 100000,
+      "url_img": "../src/images/hc16.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc16.jpg",
+        "../src/images/hc16.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 16
+    },
+    {
+      "product_name": "Hoa Cưới Ngôi Nhà Hạnh Phúc",
+      "price": 100000,
+      "url_img": "../src/images/hc17.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc17.jpg",
+        "../src/images/hc17.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 17
+    },
+    {
+      "product_name": "Bên Nhau",
+      "price": 100000,
+      "url_img": "../src/images/hc18.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc18.jpg",
+        "../src/images/hc18.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 18
+    },
+    {
+      "product_name": "Hoa Cầm Tay Cô Dâu Thành Đôi",
+      "price": 100000,
+      "url_img": "../src/images/hc19.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc19.jpg",
+        "../src/images/hc19.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 19
+    },
+    {
+      "product_name": "Hoa Cầm Tay Cô Dâu Môi Xinh",
+      "price": 100000,
+      "url_img": "../src/images/hc20.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hc20.jpg",
+        "../src/images/hc20.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 1,
+      "id": 20
+    },
+
+
+
+
+    {
+      "product_name": "Luôn Bên Em",
+      "price": 100000,
+      "url_img": "../src/images/hty1.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty1.jpg",
+        "../src/images/hty1.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 21
+    },
+    {
+      "product_name": "Yêu Kiều",
+      "price": 100000,
+      "url_img": "../src/images/hty2.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty2.jpg",
+        "../src/images/hty2.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 22
+    },
+    {
+      "product_name": "Only You",
+      "price": 100000,
+      "url_img": "../src/images/hty3.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty3.jpg",
+        "../src/images/hty3.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 23
+    },
+    {
+      "product_name": "First Date",
+      "price": 100000,
+      "url_img": "../src/images/hty4.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty4.jpg",
+        "../src/images/hty4.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 24
+    },
+
+
+
+
+    {
+      "product_name": "hoa khai trương 25",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 3,
+      "id": 25
+    },
+    {
+      "product_name": "hoa khai trương 26",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 3,
+      "id": 26
+    },
+    {
+      "product_name": "hoa khai trương 27",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 3,
+      "id": 27
+    },
+    {
+      "product_name": "hoa khai trương 28",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 3,
+      "id": 28
+    },
+    {
+      "product_name": "hoa khai trương 29",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 3,
+      "id": 29
+    },
+    {
+      "product_name": "hoa khai trương 30",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 3,
+      "id": 30
+    },
+    {
+      "product_name": "hoa khai trương 31",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 3,
+      "id": 31
+    },
+    {
+      "product_name": "hoa khai trương 32",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 3,
+      "id": 32
+    },
+    {
+      "product_name": "hoa khai trương 33",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 3,
+      "id": 33
+    },
+    {
+      "product_name": "hoa khai trương 34",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 3,
+      "id": 34
+    },
+    {
+      "product_name": "hoa khai trương 35",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 3,
+      "id": 35
+    },
+    {
+      "product_name": "hoa khai trương 36",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 3,
+      "id": 36
+    },
+    {
+      "product_name": "bó hoa 37",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 4,
+      "id": 37
+    },
+    {
+      "product_name": "bó hoa 38",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 4,
+      "id": 38
+    },
+    {
+      "product_name": "bó hoa 39",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 4,
+      "id": 39
+    },
+    {
+      "product_name": "bó hoa 40",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 4,
+      "id": 40
+    },
+    {
+      "product_name": "bó hoa 41",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 4,
+      "id": 41
+    },
+    {
+      "product_name": "bó hoa 42",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 4,
+      "id": 42
+    },
+    {
+      "product_name": "bó hoa 43",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 4,
+      "id": 43
+    },
+    {
+      "product_name": "bó hoa 44",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 4,
+      "id": 44
+    },
+    {
+      "product_name": "bó hoa 45",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 4,
+      "id": 45
+    },
+    {
+      "product_name": "bó hoa 46",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 4,
+      "id": 46
+    },
+    {
+      "product_name": "bó hoa 47",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 4,
+      "id": 47
+    },
+    {
+      "product_name": "bó hoa 48",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 4,
+      "id": 48
+    },
+
+
+    {
+      "product_name": "giỏ hoa 49",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 5,
+      "id": 49
+    },
+    {
+      "product_name": "giỏ hoa 50",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 5,
+      "id": 50
+    },
+    {
+      "product_name": "giỏ hoa 51",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 5,
+      "id": 51
+    },
+    {
+      "product_name": "giỏ hoa 52",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 5,
+      "id": 52
+    },
+    {
+      "product_name": "giỏ hoa 53",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 5,
+      "id": 53
+    },
+    {
+      "product_name": "giỏ hoa 54",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 5,
+      "id": 54
+    },
+    {
+      "product_name": "giỏ hoa 55",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 5,
+      "id": 55
+    },
+    {
+      "product_name": "giỏ hoa 56",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 5,
+      "id": 56
+    },
+    {
+      "product_name": "giỏ hoa 57",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 5,
+      "id": 57
+    },
+    {
+      "product_name": "giỏ hoa 58",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 5,
+      "id": 58
+    },
+    {
+      "product_name": "giỏ hoa 59",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 5,
+      "id": 59
+    },
+    {
+      "product_name": "giỏ hoa 60",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 5,
+      "id": 60
+    },
+
+
+    {
+      "product_name": "hoa tươi 61",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 6,
+      "id": 61
+    },
+    {
+      "product_name": "hoa tươi 62 ",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 6,
+      "id": 62
+    },
+    {
+      "product_name": "hoa tươi 63",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 6,
+      "id": 63
+    },
+    {
+      "product_name": "hoa tươi 64",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 6,
+      "id": 64
+    },
+    {
+      "product_name": "hoa tươi 65",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 6,
+      "id": 65
+    },
+    {
+      "product_name": "hoa tươi 66",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 6,
+      "id": 66
+    },
+    {
+      "product_name": "hoa tươi 67",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 6,
+      "id": 67
+    },
+    {
+      "product_name": "hoa tươi 68",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 6,
+      "id": 68
+    },
+    {
+      "product_name": "hoa tươi 69",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 6,
+      "id": 69
+    },
+    {
+      "product_name": "hoa tươi 70",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 6,
+      "id": 70
+    },
+    {
+      "product_name": "hoa tươi 71",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 6,
+      "id": 71
+    },
+    {
+      "product_name": "hoa tươi 72",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 6,
+      "id": 72
+    },
+
+    {
+      "product_name": "hoa sinh nhật 73",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 7,
+      "id": 73
+    },
+    {
+      "product_name": "hoa sinh nhật 74",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 7,
+      "id": 74
+    },
+    {
+      "product_name": "hoa sinh nhật 75",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 7,
+      "id": 75
+    },
+    {
+      "product_name": "hoa sinh nhật 76",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 7,
+      "id": 76
+    },
+    {
+      "product_name": "hoa sinh nhật 7",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 7,
+      "id": 77
+    },
+    {
+      "product_name": "hoa sinh nhật 78",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 7,
+      "id": 78
+    },
+    {
+      "product_name": "hoa sinh nhật 79",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 7,
+      "id": 79
+    },
+    {
+      "product_name": "hoa sinh nhật 80",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 7,
+      "id": 80
+    },
+    {
+      "product_name": "hoa sinh nhật 81",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 7,
+      "id": 81
+    },
+    {
+      "product_name": "hoa sinh nhật 82",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 7,
+      "id": 82
+    },
+    {
+      "product_name": "Tình Yêu Mãnh Liệt",
+      "price": 100000,
+      "url_img": "../src/images/hh14.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh14.jpg",
+        "../src/images/hh14.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 7,
+      "id": 83
+    },
+    {
+      "product_name": "Lãng Hoa Yellow Lover",
+      "price": 100000,
+      "url_img": "../src/images/hoa.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hoa.jpg",
+        "../src/images/hoa.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 7,
+      "id": 84
+    },
+    {
+      "product_name": "Love",
+      "price": 100000,
+      "url_img": "../src/images/hh12.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh12.jpg",
+        "../src/images/hh12.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 85
+    },
+    {
+      "product_name": "Mãi Yêu",
+      "price": 100000,
+      "url_img": "../src/images/hh11.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh11.jpg",
+        "../src/images/hh11.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 86
+    },
+    {
+      "product_name": "Bó Hoa Sắc Màu",
+      "price": 100000,
+      "url_img": "../src/images/hh10.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh10.jpg",
+        "../src/images/hh10.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 87
+    },
+    {
+      "product_name": "Hội Ngộ",
+      "price": 100000,
+      "url_img": "../src/images/hh9.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh9.jpg",
+        "../src/images/hh9.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 88
+    },
+    {
+      "product_name": "Rosie",
+      "price": 100000,
+      "url_img": "../src/images/hh8.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh8.jpg",
+        "../src/images/hh8.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 89
+    },
+    {
+      "product_name": "Bó Hoa Bé Xinh",
+      "price": 100000,
+      "url_img": "../src/images/hh7.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh7.jpg",
+        "../src/images/hh7.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 90
+    },
+    {
+      "product_name": "Yêu Thương Màu Tím",
+      "price": 100000,
+      "url_img": "../src/images/hh6.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh6.jpg",
+        "../src/images/hh6.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 91
+    },
+    {
+      "product_name": "Lãng Hoa Hạnh Phúc",
+      "price": 100000,
+      "url_img": "../src/images/hh5.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh5.jpg",
+        "../src/images/hh5.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 92
+    },
+    {
+      "product_name": "Chung Đôi",
+      "price": 100000,
+      "url_img": "../src/images/hh4.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh4.jpg",
+        "../src/images/hh4.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 93
+    },
+    {
+      "product_name": "Hồng Dịu Dàng",
+      "price": 100000,
+      "url_img": "../src/images/hh3.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh3.jpg",
+        "../src/images/hh3.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 94
+    },
+    {
+      "product_name": "Only You",
+      "price": 100000,
+      "url_img": "../src/images/hh2.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh2.jpg",
+        "../src/images/hh2.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 95
+    },
+    {
+      "product_name": "Yêu Kiều",
+      "price": 100000,
+      "url_img": "../src/images/hh1.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh1.jpg",
+        "../src/images/hh1.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 96
+    },
+
+    {
+      "product_name": "Chậu Lan Hồ Điệp 01",
+      "price": 100000,
+      "url_img": "../src/images/hl1.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl1.jpg",
+        "../src/images/hl1.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 9,
+      "id": 97
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 02",
+      "price": 100000,
+      "url_img": "../src/images/hl2.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl2.jpg",
+        "../src/images/hl2.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 9,
+      "id": 98
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 03",
+      "price": 100000,
+      "url_img": "../src/images/hl3.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl3.jpg",
+        "../src/images/hl3.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 9,
+      "id": 99
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 04",
+      "price": 100000,
+      "url_img": "../src/images/hl4.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl4.jpg",
+        "../src/images/hl4.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 9,
+      "id": 100
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 05",
+      "price": 100000,
+      "url_img": "../src/images/hl5.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl5.jpg",
+        "../src/images/hl5.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 9,
+      "id": 101
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 0",
+      "price": 100000,
+      "url_img": "../src/images/hl6.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl6.jpg",
+        "../src/images/hl6.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 9,
+      "id": 102
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 0",
+      "price": 100000,
+      "url_img": "../src/images/hl7.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl7.jpg",
+        "../src/images/hl7.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 9,
+      "id": 103
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 08",
+      "price": 100000,
+      "url_img": "../src/images/hl8.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl8.jpg",
+        "../src/images/hl8.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 9,
+      "id": 104
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 09",
+      "price": 100000,
+      "url_img": "../src/images/hl9.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl9.jpg",
+        "../src/images/hl9.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 9,
+      "id": 105
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 10",
+      "price": 100000,
+      "url_img": "../src/images/hl10.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl10.jpg",
+        "../src/images/hl10.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id":9,
+      "id": 106
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 11",
+      "price": 100000,
+      "url_img": "../src/images/hl11.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl11.jpg",
+        "../src/images/hl11.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id":9,
+      "id": 107
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 12",
+      "price": 100000,
+      "url_img": "../src/images/hl12.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl12.jpg",
+        "../src/images/hl12.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id":9,
+      "id": 108
+    },
+
+    {
+      "product_name": "Vòng Hoa Tang Lễ Phân Ưu",
+      "price": 100000,
+      "url_img": "../src/images/ht1.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht1.jpg",
+        "../src/images/ht1.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 109
+    },
+    {
+      "product_name": "Hoa Tang Lễ Dòng Thời Gian",
+      "price": 100000,
+      "url_img": "../src/images/ht2.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht2.jpg",
+        "../src/images/ht2.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 110
+    },
+    {
+      "product_name": "Vĩnh Biệt",
+      "price": 100000,
+      "url_img": "../src/images/ht3.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht3.jpg",
+        "../src/images/ht3.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 111
+    },
+    {
+      "product_name": "Vòng Hoa Tang Lễ Tiếc Thương",
+      "price": 100000,
+      "url_img": "../src/images/ht4.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht4.jpg",
+        "../src/images/ht4.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 112
+    },
+    {
+      "product_name": "Hoa Chia Buồn An Giấc",
+      "price": 100000,
+      "url_img": "../src/images/ht5.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht5.jpg",
+        "../src/images/ht5.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 113
+    },
+    {
+      "product_name": "Vòng Hoa Tang Lễ Nhớ Thương",
+      "price": 100000,
+      "url_img": "../src/images/ht6.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht6.jpg",
+        "../src/images/ht6.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 114
+    },
+    {
+      "product_name": "Yên Nghỉ",
+      "price": 100000,
+      "url_img": "../src/images/ht7.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht7.jpg",
+        "../src/images/ht7.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 115
+    },
+    {
+      "product_name": "Vòng Hoa Chia Buồn Tưởng Niệm",
+      "price": 100000,
+      "url_img": "../src/images/ht8.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht8.jpg",
+        "../src/images/ht8.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 116
+    },
+    {
+      "product_name": "Hoa Chia Buồn Du Dương",
+      "price": 100000,
+      "url_img": "../src/images/ht9.png",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht9.png",
+        "../src/images/ht9.png"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 117
+    },
+    {
+      "product_name": "Vòng Hoa Tang Lễ Phù Du",
+      "price": 100000,
+      "url_img": "../src/images/ht10.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht10.jpg",
+        "../src/images/ht10.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 118
+    },
+    {
+      "product_name": "Vòng Hoa Tang Lễ Kuyến Tiếc",
+      "price": 100000,
+      "url_img": "../src/images/ht11.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht11.jpg",
+        "../src/images/ht11.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 119
+    },
+
+    {
+      "product_name": "Hoa Chia Buồn Tĩnh Lặng",
+      "price": 100000,
+      "url_img": "../src/images/ht12.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht12.jpg",
+        "../src/images/ht12.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 200
+    },
+    
+    {
+      "product_name": "Ngày Tinh Khôi",
+      "price": 100000,
+      "url_img": "../src/images/hty5.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty5.jpg",
+        "../src/images/hty5.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 201
+    },
+    {
+      "product_name": "Hồng Dịu Dàng",
+      "price": 100000,
+      "url_img": "../src/images/hty6.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty6.jpg",
+        "../src/images/hty6.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 202
+    },
+    {
+      "product_name": "Chung Đôi",
+      "price": 100000,
+      "url_img": "../src/images/hty7.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty7.jpg",
+        "../src/images/hty7.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 203
+    },
+    {
+      "product_name": "Lãng Hoa Hạnh Phúc",
+      "price": 100000,
+      "url_img": "../src/images/hty8.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty8.jpg",
+        "../src/images/hty8.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 204
+    },
+    {
+      "product_name": "Riêng Mình Em",
+      "price": 100000,
+      "url_img": "../src/images/hty9.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty9.jpg",
+        "../src/images/hty9.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 205
+    },
+    {
+      "product_name": "Màu Tình Yêu",
+      "price": 100000,
+      "url_img": "../src/images/hty10.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty10.jpg",
+        "../src/images/hty10.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 206
+    },
+    {
+      "product_name": "Nụ Hoa Hé Nở",
+      "price": 100000,
+      "url_img": "../src/images/hty11.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty11.jpg",
+        "../src/images/hty11.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 207
+    },
+    {
+      "product_name": "Duy Nhất",
+      "price": 100000,
+      "url_img": "../src/images/hty12.png",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty12.png",
+        "../src/images/hty12.png"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 208
+    },
+
+
+
+    {
+      "product_name": "Một Tình Yêu",
+      "price": 100000,
+      "url_img": "../src/images/hty20.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty20.jpg",
+        "../src/images/hty20.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 209
+    },
+    {
+      "product_name": "Món Quà Tình Yêu",
+      "price": 100000,
+      "url_img": "../src/images/hty13.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty13.jpg",
+        "../src/images/hty13.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 210
+    },
+    {
+      "product_name": "Yêu Hay Không Yêu",
+      "price": 100000,
+      "url_img": "../src/images/hty14.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty14.jpg",
+        "../src/images/hty14.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 211
+    },
+    {
+      "product_name": "Nhịp Đạp Con Tim",
+      "price": 100000,
+      "url_img": "../src/images/hty15.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty15.jpg",
+        "../src/images/hty15.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 212
+    },
+    {
+      "product_name": "I LOVE YOU",
+      "price": 100000,
+      "url_img": "../src/images/hty16.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty16.jpg",
+        "../src/images/hty16.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 213
+    },
+    {
+      "product_name": "Mãi Bên Nhau",
+      "price": 100000,
+      "url_img": "../src/images/hty17.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty17.jpg",
+        "../src/images/hty17.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 214
+    },
+    {
+      "product_name": "Perfect",
+      "price": 100000,
+      "url_img": "../src/images/hty18.png",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty18.png",
+        "../src/images/hty18.png"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 215
+    },
+    {
+      "product_name": "Rộn Ràng",
+      "price": 100000,
+      "url_img": "../src/images/hty19.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hty19.jpg",
+        "../src/images/hty19.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 2,
+      "id": 216
+    },
+
+
+
+    {
+      "product_name": "Lãng Hoa Yellow Lover",
+      "price": 100000,
+      "url_img": "../src/images/hh13.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh13.jpg",
+        "../src/images/hh13.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 217
+    },
+
+    {
+      "product_name": "Tình Yêu Mãnh Liệt",
+      "price": 100000,
+      "url_img": "../src/images/hh14.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh14.jpg",
+        "../src/images/hh14.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 218
+    },
+    {
+      "product_name": "Ti Amo",
+      "price": 100000,
+      "url_img": "../src/images/hh15.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh15.jpg",
+        "../src/images/hh15.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 219
+    },
+    {
+      "product_name": "Trang Nhã",
+      "price": 100000,
+      "url_img": "../src/images/hh16.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh16.jpg",
+        "../src/images/hh16.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 220
+    },
+    {
+      "product_name": "Red O`hara",
+      "price": 100000,
+      "url_img": "../src/images/hh17.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh17.jpg",
+        "../src/images/hh17.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 221
+    },
+    {
+      "product_name": "Thủy Chung",
+      "price": 100000,
+      "url_img": "../src/images/hh18.png",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh18.png",
+        "../src/images/hh18.png"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 222
+    },
+    {
+      "product_name": "Nắng Thu",
+      "price": 100000,
+      "url_img": "../src/images/hh19.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh19.jpg",
+        "../src/images/hh19.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 223
+    },
+    {
+      "product_name": "Điều Hạnh Phúc",
+      "price": 100000,
+      "url_img": "../src/images/hh20.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hh20.jpg",
+        "../src/images/hh20.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 8,
+      "id": 224
+    },
+
+
+
+    {
+      "product_name": "Chậu Lan Hồ Điệp 13",
+      "price": 100000,
+      "url_img": "../src/images/hl13.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl13.jpg",
+        "../src/images/hl13.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 9,
+      "id": 225
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 14",
+      "price": 100000,
+      "url_img": "../src/images/hl14.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl14.jpg",
+        "../src/images/hl14.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 9,
+      "id": 226
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 15",
+      "price": 100000,
+      "url_img": "../src/images/hl15.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl15.jpg",
+        "../src/images/hl15.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 9,
+      "id": 227
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 16",
+      "price": 100000,
+      "url_img": "../src/images/hl16.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl16.jpg",
+        "../src/images/hl16.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 9,
+      "id": 228
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 17",
+      "price": 100000,
+      "url_img": "../src/images/hl17.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl17.jpg",
+        "../src/images/hl17.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 9,
+      "id": 229
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 18",
+      "price": 100000,
+      "url_img": "../src/images/hl18.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl18.jpg",
+        "../src/images/hl18.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 9,
+      "id": 230
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 19",
+      "price": 100000,
+      "url_img": "../src/images/hl19.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl19.jpg",
+        "../src/images/hl19.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 9,
+      "id": 231
+    },
+    {
+      "product_name": "Chậu Lan Hồ Điệp 20",
+      "price": 100000,
+      "url_img": "../src/images/hl20.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/hl20.jpg",
+        "../src/images/hl20.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 9,
+      "id": 232
+    },
+    {
+      "product_name": "Vòng Hoa Tang Lễ Thiên Thu",
+      "price": 100000,
+      "url_img": "../src/images/ht13.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht13.jpg",
+        "../src/images/ht13.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 233
+    },
+    {
+      "product_name": "Vòng Hoa Tang Lễ Hồng Phai",
+      "price": 100000,
+      "url_img": "../src/images/ht14.png",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht14.png",
+        "../src/images/ht14.png"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 234
+    },
+    {
+      "product_name": "Hoa Chia Buồn Lắng Đọng",
+      "price": 100000,
+      "url_img": "../src/images/ht15.png",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht15.png",
+        "../src/images/ht15.png"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 235
+    },
+    {
+      "product_name": "Hoa Chia Buồn Thành Kính",
+      "price": 100000,
+      "url_img": "../src/images/ht16.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht16.jpg",
+        "../src/images/ht16.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 236
+    },
+    {
+      "product_name": "Hoa Chia Buồn Lời Cuối",
+      "price": 100000,
+      "url_img": "../src/images/ht17.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht17.jpg",
+        "../src/images/ht17.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 237
+    },
+    {
+      "product_name": "Hoa Chia Buồn Vô Thường",
+      "price": 100000,
+      "url_img": "../src/images/ht18.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht18.jpg",
+        "../src/images/ht18.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 238
+    },
+    {
+      "product_name": "Hoa Chia Buồn Vĩnh Hằng",
+      "price": 100000,
+      "url_img": "../src/images/ht19.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht19.jpg",
+        "../src/images/ht19.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 239
+    },
+    {
+      "product_name": "Vòng Hoa Tang Lễ Nốt Trầm",
+      "price": 100000,
+      "url_img": "../src/images/ht20.jpg",
+      "created_date": "25/11/2022",
+      "modified_date": "",
+      "modified_by": "",
+      "created_by": "ad 1",
+      "img_detail": [
+        "../src/images/ht20.jpg",
+        "../src/images/ht20.jpg"
+      ],
+      "detail_product": {
+        "title": "mô tả sản phẩm",
+        "content": "Bó hoa với thiết kế đặt biệt từ những cánh hồng đỏ tươi đầy rực rỡ cùng 1 cánh hồng kem dễ thương nổi bật ngay giữa. Bó hoa tượng trưng cho thông điệp  'Em là tình yêu duy nhất của cuộc đời anh, dù có chuyện gì xảy ra, dù buồn hay vui anh vẩn ở cạnh em đến cuối con đường'. Đừng đợi chờ bạn nhé, hãy để bó hoa thay bạn nói những lời yêu thương ngọt ngào nhất."
+      },
+      "category_id": 10,
+      "id": 240
+    }
+  ]
+}

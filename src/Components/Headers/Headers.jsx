@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom'
     useEffect(() => {
         getDatas()
     }, [])
-    console.log('render header top')
+    // console.log('render header top')
     return (
         <div id="headers">
             <div className="container py-2 text-center">
