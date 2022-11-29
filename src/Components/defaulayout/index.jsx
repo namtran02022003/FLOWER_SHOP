@@ -6,7 +6,7 @@ export default function DefauLayout({ page }) {
     return (
         <>
             <Headers />
-            <div>
+            <div className="mt-3">
                 {page}
             </div>
             <Footer />

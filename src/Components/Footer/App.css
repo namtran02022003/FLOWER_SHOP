@@ -17,10 +17,18 @@
 .footer_ul_icons li:hover {
     color: rgb(153, 131, 131) !important;
 }
-#footer{
-    font-family:Arial, Helvetica, sans-serif
+.cursor_pointer{
+    cursor: pointer;
 }
-.bg_footer_bottom{
-   color: #666;
-   background-color: rgb(251 248 249);
+#footer {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.bg_footer_bottom {
+    color: #666;
+    background-color: rgb(251 248 249);
+}
+.a{
+    text-decoration: none;
+    
 }

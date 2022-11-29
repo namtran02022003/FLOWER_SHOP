@@ -2,7 +2,7 @@
   "category": [
     {
       "category_id": 1,
-      "category_name": "hoa cưới",
+      "category_name": "Hoa Cưới",
       "created_date": "25/11/2022",
       "modified_date": "",
       "modified_by": "",
@@ -10,7 +10,7 @@
     },
     {
       "category_id": 2,
-      "category_name": "hoa tình yêu",
+      "category_name": "Hoa Tình Yêu",
       "created_date": "25/11/2022",
       "modified_date": "",
       "modified_by": "",
@@ -18,7 +18,7 @@
     },
     {
       "category_id": 3,
-      "category_name": "hoa khai trương",
+      "category_name": "Hoa Khai Trương",
       "created_date": "25/11/2022",
       "modified_date": "",
       "modified_by": "",
@@ -26,7 +26,7 @@
     },
     {
       "category_id": 4,
-      "category_name": "bó hoa",
+      "category_name": "Bó Hoa",
       "created_date": "25/11/2022",
       "modified_date": "",
       "modified_by": "",
@@ -34,7 +34,7 @@
     },
     {
       "category_id": 5,
-      "category_name": "giỏ hoa",
+      "category_name": "Giỏ Hoa",
       "created_date": "25/11/2022",
       "modified_date": "",
       "modified_by": "",
@@ -42,7 +42,7 @@
     },
     {
       "category_id": 6,
-      "category_name": "hoa tươi",
+      "category_name": "Hoa Tươi",
       "created_date": "25/11/2022",
       "modified_date": "",
       "modified_by": "",
@@ -50,7 +50,7 @@
     },
     {
       "category_id": 7,
-      "category_name": "hoa sinh nhật",
+      "category_name": "Hoa Sinh Nhật",
       "created_date": "25/11/2022",
       "modified_date": "",
       "modified_by": "",
@@ -58,7 +58,7 @@
     },
     {
       "category_id": 8,
-      "category_name": "hoa hồng",
+      "category_name": "Hoa Hồng",
       "created_date": "25/11/2022",
       "modified_date": "",
       "modified_by": "",
@@ -66,7 +66,7 @@
     },
     {
       "category_id": 9,
-      "category_name": "hoa lan",
+      "category_name": "Hoa Lan",
       "created_date": "25/11/2022",
       "modified_date": "",
       "modified_by": "",
@@ -74,7 +74,7 @@
     },
     {
       "category_id": 10,
-      "category_name": "hoa tang",
+      "category_name": "Hoa Tang",
       "created_date": "25/11/2022",
       "modified_date": "",
       "modified_by": "",

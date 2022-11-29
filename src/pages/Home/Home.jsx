@@ -5,26 +5,27 @@ export default function Home(){
     return(
         <div>
              <div className='container my-3'>
-             <h6 className="text-center">ĐẶT HOA NHANH - GỌI NGAY 1900 633 045 - 0865 160 360 HOẶC 0918 491 941</h6>
+             <h6 className="text-center">ĐẶT HOA NHANH - GỌI NGAY 037 277 0547 - 090 619 2436 HOẶC 036 606 3709</h6>
                 <Slide />
                 <div className="content">
                     <ContentHome 
-                    category_name = "hoa cưới"
+                    category_name = "Hoa Cưới"
                     />
                     <ContentHome 
-                    category_name = "hoa tình yêu"
+                    category_name = "Hoa Tình Yêu"
                     />
                     <ContentHome 
-                    category_name = "hoa lan"
+                    category_name = "Hoa Lan"
                     />
                     <ContentHome 
-                    category_name = "hoa hồng"
+                    category_name = "Hoa Hồng"
                     />
                     <ContentHome 
-                    category_name = "hoa tang"
+                    category_name = "Hoa Tang"
                     />
                 </div>
             </div>
+            
         </div>
     )
 }

@@ -8,18 +8,15 @@ function Slide() {
         const res = await axios.get("../../../json/headers.json")
         setData(res.data.images_slide)
     }
-
     useEffect(() => {
         getDatas()
     }, [])
-
     const timeSlide = useRef()
     const refNext = useRef()
     const refBack = useRef()
     useEffect(() => {
         const mySlide = document.querySelectorAll('.my_slides')
         if (mySlide[0]) {
-
             var indexs = 1
             refBack.current.onclick = () => { clickSlide(-1) }
             refNext.current.onclick = () => { clickSlide(1) }

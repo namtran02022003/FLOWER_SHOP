@@ -32,7 +32,7 @@ function ContentHome(props) {
                             <div className="p-2 product">
                                 <img src={product.url_img} width="100%" alt="img" />
                                 <p className=" my-2">{product.product_name}</p>
-                                <p >{product.price} VND</p>
+                                <p >{product.price.toLocaleString()} VND</p>
                                 <hr /> </div>
                             }
                            

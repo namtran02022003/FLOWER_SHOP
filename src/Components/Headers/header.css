@@ -1,31 +1,48 @@
-.div_inline {
-    display: inline-block;
-}
 
 .logo {
-    width: 33.333%;
+    width: 35%;
 }
-
 .search {
-    width: 33.333%;
+    width: 30%;
 }
 
-.button-header {
-    width: 33.333%;
+@media only screen and (max-width: 768px){
+    
+    .header-button-list{
+        display: none !important;
+    }
+    .menu-header{
+        display: block !important;
+    }
+    
+}
+@media only screen and (max-width: 767px){
+    .logo{
+        width: 80%;
+        margin: auto;
+    }
+    
+}
+.header-button-list{
+    display: flex;
+    width: 35%;
+    justify-content: center;
+}
+.menu-header{
+    display: none;
 }
 
-#headers {
-    color: rgb(212, 40, 40) !important;
-}
 
 .input-search {
     justify-content: center;
     align-items: center;
 }
-
+.input-search form input:focus-within{
+    outline: 0.5px solid rgb(168, 167, 167) !important;
+}
 .input-search form input {
-    width: 60%;
-    border: 0.5px solid#ccc;
+    width: 90%;
+    border: 0.5px solid rgb(228, 225, 225);
     border-radius: 5px;
     padding: 5px 0
 }
@@ -37,7 +54,7 @@
 
 .input-search form i {
     position: absolute;
-    right: 20%;
+    right: 5%;
     top: 0;
     height: 100%;
     padding: 0 10px;
@@ -52,8 +69,8 @@
 .header-button-list button {
     border: none;
     border-radius: 5px;
-    margin: 10px;
-    padding:0
+   font-size: 14px;
+    padding: 0
 }
 
 .heder_bottom {
@@ -71,15 +88,15 @@
     border-bottom: 0.5px solid #ccc;
 }
 
-
 .btn-hover {
-    color: rgb(141, 138, 138);
+    color: rgb(82, 62, 65);
     text-decoration: none;
     border-radius: 10px;
-    padding:10px;
-    background-color:white ;
+  
+    background-color: white;
 }
-.btn-hover:hover{
- background-color: #ccc;
- color: black;
+
+.btn-hover:hover {
+    background-color: #ccc;
+    color: black;
 }

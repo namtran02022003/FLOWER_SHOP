@@ -3,12 +3,14 @@
     position: absolute;
     font-size: 40px;
     color: #ccc;
-cursor: pointer;
+    cursor: pointer;
 }
+
 .click_left:hover,
-.click_right:hover{
-color: rgb(129, 126, 126);
+.click_right:hover {
+    color: rgb(129, 126, 126);
 }
+
 .click_left {
     top: 50%;
     transform: translateY(-50%);

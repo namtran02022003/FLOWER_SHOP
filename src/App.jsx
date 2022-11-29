@@ -12,7 +12,6 @@ function App() {
             let Layout = DefauLayout
             return <Route key={index} path={route.path} element={<Layout page={<Page />}></Layout>}></Route>
           })}
-
         </Routes>
       </Router>
     </div>

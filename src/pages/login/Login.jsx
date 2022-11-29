@@ -52,7 +52,7 @@ export default function Login() {
                 <div>
                   <label>Mật khẩu:</label>
                   <input
-                    type="text"
+                    type="password"
                     placeholder="mật khẩu"
                     {...register("password", {
                       required: true,
