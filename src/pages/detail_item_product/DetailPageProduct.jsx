@@ -1,13 +1,14 @@
 import axios from "axios"
-import { useEffect, useState } from 'react'
-import './App.css'
-function ContentHome(props) {
+import { useState, useEffect } from 'react'
+
+function DetailItemProduct(props) {
     const [heading, setHeading] = useState([])
     const [products, setProducts] = useState([])
     const getDatas = async () => {
         const res = await axios.get("../../../json/content.json")
         setHeading(res.data.category.filter((item) => item.category_name === props.category_name))
         setProducts(res.data.product)
+       
     }
     useEffect(() => {
         getDatas()
@@ -15,7 +16,6 @@ function ContentHome(props) {
     var id_category
     heading.length > 0 ? id_category = heading[0].category_id : 'khong ton tai'
     const listProduct = products.filter(product => product.category_id === id_category)
-
     return (
         <div className=" bg-index py-3">
             <div className="container">
@@ -34,7 +34,7 @@ function ContentHome(props) {
                 <div className="row">
                     {listProduct.map((product, index) => (
                         <div key={index} className="col-3 ">
-                            {index + 1 > 20 ? '' :
+                           
                                 <div className=" product ">
                                     <div className="bg-white shadow-product">
                                         <img src={product.url_img} width="100%" alt="img" />
@@ -43,7 +43,7 @@ function ContentHome(props) {
                                     </div>
                                     <hr />
                                 </div>
-                            }
+                            
 
                         </div>
                     ))}
@@ -52,5 +52,4 @@ function ContentHome(props) {
         </div>
     )
 }
-
-export default ContentHome
+export default DetailItemProduct

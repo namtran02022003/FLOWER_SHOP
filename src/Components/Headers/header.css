@@ -26,7 +26,7 @@
 .header-button-list{
     display: flex;
     width: 35%;
-    justify-content: center;
+    
 }
 .menu-header{
     display: none;
@@ -81,6 +81,9 @@
     border: none;
     padding: 5px 10px;
     background: rgb(249 247 247);
+    font-weight: bolder;
+    color: rgba(78, 78, 78, 0.85) ;
+    border-top: 3px solid  rgb(249 247 247);
 }
 
 .bg_header_bottom {
@@ -92,11 +95,18 @@
     color: rgb(82, 62, 65);
     text-decoration: none;
     border-radius: 10px;
-  
     background-color: white;
 }
 
 .btn-hover:hover {
     background-color: #ccc;
     color: black;
+}
+
+.button_page_header:hover, .active{
+    border-top: 3px solid  rgb(107, 104, 104);
+   color: rgba(78, 78, 78, 0.85) ;
+}
+.button_page_header{
+    text-decoration: none;
 }

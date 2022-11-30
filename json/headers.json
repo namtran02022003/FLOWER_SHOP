@@ -8,11 +8,30 @@
     "logo_shop":"https://www.flowercorner.vn/image/catalog/1_dienhoa/app/shop-hoa-tuoi-flowercorner-logo.png",
     
     "button_page":[
-        "Hoa Cưới",
-        "Hoa Tươi",
-        "Hoa Giả ",
-        "Bó Hoa",
-        "Giỏ Hoa",
-        "Hoa Khai Trương"
+        {
+            "url":"hoacuoi",
+            "item":"Hoa Cưới"
+        },
+        {
+            "url":"binhhoa",
+            "item":"Bình Hoa"
+        },
+        {
+            "url":"hoatinhyeu",
+            "item":"Hoa Tình Yêu"
+        },
+        {
+            "url":"bohoa",
+            "item":"Bó Hoa"
+        },
+        {
+            "url":"giohoa",
+            "item":"Giỏ Hoa"
+        },
+        {
+            "url":"hoakhaitruong",
+            "item":"Hoa Khai Trương"
+        }
+
     ]
 }

@@ -2,12 +2,31 @@ import { useForm } from 'react-hook-form'
 import Url_face from './../../images/face.png'
 import Url_gg from "../../images/gg.png"
 import Url_ins from "../../images/ins.jpeg"
-
+import { useRef } from 'react'
+import axios from 'axios'
+import {useNavigate} from 'react-router-dom'
 export default function Register() {
+    const Navitage = useNavigate()
+    const refMessage = useRef('')
+    const refSpan = useRef()
     const { register, handleSubmit, formState: { errors } } = useForm()
 
-    const onSubmit = (data) => {
-
+    const onSubmit = async(data) => {
+        if (data.password !== data.re_password) {
+            refMessage.current = "nhap lai mk"
+        }else{
+            const d = new Date()
+           const datas = {
+           user_name:data.user_name,
+           password:data.password,
+           email:data.email,
+            created_date: d.getDate()+'/'+Number(d.getMonth()+1)+'/'+Number(d.getFullYear()),
+            created_by: "user"
+           }
+        await axios.post(' http://localhost:3000/users',datas)
+       Navitage('/')
+        }
+        refSpan.current.innerHTML = refMessage.current
     }
     return (
         <div className="bg-form">
@@ -99,7 +118,7 @@ export default function Register() {
                                     )}
                                 </div>
                                 <div className="text-center">
-
+                                    <span ref={refSpan}></span>
                                     <button type="submit" className="btn_form btn_login">
                                         Đăng ký
                                     </button>

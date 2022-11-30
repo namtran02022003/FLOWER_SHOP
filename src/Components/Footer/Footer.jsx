@@ -23,7 +23,6 @@ export default function Footer() {
      Navigation(`/${data}`)
     }
     return (
-       
        <div className='bg_footer_bottom mt-5'>
        <div className="container ">
             <div className="row">

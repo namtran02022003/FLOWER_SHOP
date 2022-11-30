@@ -34,11 +34,11 @@ function Headers() {
                     </div>
                 </div>
                 <div className='  header-button-list  d-none d-md-flex  aligin-items-center'>
-                    <button ><Link className='btn-hover p-1 p-sm-2 px-lg-3 ' to="/login">Đăng nhập</Link></button>
-                    <button><Link className='btn-hover p-1 p-sm-2 px-lg-3 ' to="/register">Đăng ký</Link></button>
-                    <button ><Link className='btn-hover p-1 p-sm-2 px-lg-3 ' to="/cart">Giỏ hàng<i className=" ms-2 fa-sharp fa-solid fa-cart-plus"></i></Link></button>
+                    <Link className='btn-hover p-0 px-lg-3 py-2 ' to="/login">Đăng nhập</Link>
+                    <Link className='btn-hover p-0 px-lg-3 py-2 ' to="/register">Đăng ký</Link>
+                    <Link className='btn-hover p-0 px-lg-3 py-2 ' to="/cart">Giỏ hàng<i className=" ms-2 fa-sharp fa-solid fa-cart-plus"></i></Link>
                 </div>
-                <hr className='d-md-none d-block' />
+                {/* <hr className='d-md-none d-block' />
                 <div className='d-flex   d-md-none justify-content-around'>
                     <div className='d-flex input-search'>
                         <form>
@@ -51,7 +51,7 @@ function Headers() {
                         <button>menu</button>
                     </div>
 
-                </div>
+                </div> */}
             </div>
             <div className='bg_header_bottom py-1'>
                 <HeaderBottom data={listButtonPage} />

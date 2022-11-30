@@ -7,6 +7,14 @@ import Page2 from "../pages/pageDetailFooter/page2"
 import Page3 from "../pages/pageDetailFooter/page3"
 import Page4 from "../pages/pageDetailFooter/page4"
 import Page5 from "../pages/pageDetailFooter/page5"
+import BoaHoa from "../pages/detail_item_product/BoHoa"
+import GioHoa from "../pages/detail_item_product/GioHoa"
+import HoaCuoi from "../pages/detail_item_product/HoaCuoi"
+import HoaKhaiTruong from "../pages/detail_item_product/HoaKhaiTruong"
+import BinhHoa from "../pages/detail_item_product/BinhHoa"
+import HoaTinhYeu from "../pages/detail_item_product/HoaTinhYeu"
+
+
 
 const publicRoutes = [
     {path:'/', component:Home},
@@ -18,6 +26,13 @@ const publicRoutes = [
     {path:'/chinhsachvanchuyen', component:Page3},
     {path:'/thongtinlienhe', component:Page4},
     {path:'/gioithieu', component:Page5},
+    {path:'/bohoa', component:BoaHoa},
+    {path:'/giohoa', component:GioHoa},
+    {path:'/hoacuoi', component:HoaCuoi},
+    {path:'/hoakhaitruong', component:HoaKhaiTruong},
+    {path:'/hoatinhyeu', component:HoaTinhYeu},
+    {path:'/binhhoa', component:BinhHoa},
+   
 ]
 
 

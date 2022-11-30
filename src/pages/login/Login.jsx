@@ -4,8 +4,9 @@ import { useNavigate } from 'react-router-dom'
 import Url_face from './../../images/face.png'
 import Url_gg from "../../images/gg.png"
 import Url_ins from "../../images/ins.jpeg"
-
+import {users} from '../../../json/userdatas.json'
 export default function Login() {
+
   const Navigation = useNavigate()
   const {
     register,
@@ -14,7 +15,12 @@ export default function Login() {
   } = useForm();
 
   const onSubmit = (datas) => {
-    Navigation('/')
+    users.map(user =>{
+      if(user.user_name === datas.user_name && user.password === datas.password){
+        Navigation('/')
+      }
+    })
+   
   };
   return (
     <div className="bg-form">

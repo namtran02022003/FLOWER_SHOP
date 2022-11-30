@@ -4,3 +4,12 @@
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(122, 122, 122);
 }
+.bg-index{
+    background: rgb(241 225 228);
+}
+.shadow-product{
+    box-shadow: 0 3px 6px -4px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 18%);
+}
+.heading_item_product{
+    color: #af838a;
+}
