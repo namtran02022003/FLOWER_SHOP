@@ -26,7 +26,7 @@ export default function Footer() {
        <div className='bg_footer_bottom mt-5'>
        <div className="container ">
             <div className="row">
-                <div className="col-4">
+                <div className="col-12 col-sm-4">
                     <div className='p-2'>
                         {dataLeft.map((item, index) => {
                             return (
@@ -37,7 +37,7 @@ export default function Footer() {
                         })}
                     </div>
                 </div>
-                <div className="col-4 pt-2">
+                <div className="col-12 col-sm-4 pt-2">
                     <div className='p-2'>
                         <h5>{iconsUrl.heading}</h5>
                         <ul className='footer_ul_icons'>
@@ -51,7 +51,7 @@ export default function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className="col-4 pt-2">
+                <div className="col-12 col-sm-4 pt-2">
                     <div className='p-2'>
                         <h5>{address.heading}</h5>
                         <ul className='footer_ul_icons'>

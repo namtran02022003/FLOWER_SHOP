@@ -112,7 +112,7 @@
       "created_by": "ad 1",
       "img_detail": [
         "../src/images/hc1.jpg",
-        "../src/images/hc1.jpg"
+        "../src/images/hc2.jpg"
       ],
       "detail_product": {
         "title": "mô tả sản phẩm",
@@ -2515,7 +2515,7 @@
       "id": 101
     },
     {
-      "product_name": "Chậu Lan Hồ Điệp 0",
+      "product_name": "Chậu Lan Hồ Điệp 06",
       "price": 100000,
       "url_img": "../src/images/hl6.jpg",
       "created_date": "25/11/2022",
@@ -2534,7 +2534,7 @@
       "id": 102
     },
     {
-      "product_name": "Chậu Lan Hồ Điệp 0",
+      "product_name": "Chậu Lan Hồ Điệp 07",
       "price": 100000,
       "url_img": "../src/images/hl7.jpg",
       "created_date": "25/11/2022",

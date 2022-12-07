@@ -49,7 +49,7 @@ function Slide() {
             }
         }
     })
-    // console.log('render slide')
+    
     return (
         <div className="px-5  position-relative">
             {data.map((url, index) => {

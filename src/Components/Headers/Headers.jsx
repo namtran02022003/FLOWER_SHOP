@@ -1,23 +1,36 @@
 import './header.css'
 import axios from 'axios'
-import { useState, useEffect, memo } from 'react'
+import { useState, useEffect, memo, useContext } from 'react'
 import HeaderBottom from './Header_bottom'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import Search from './Search'
 
+import { CartContext } from '../../App'
 function Headers() {
-    const [slides, setSlides] = useState([])
+    const dataCart = useContext(CartContext)
+    const Navigation = useNavigate()
+
+    const getCartCount = () => {
+        return dataCart.carts.reduce((total, product) => total + product.count, 0);
+    };
+
+
     const [listButtonPage, setListButtonPage] = useState([])
     const [datas, setDatas] = useState([])
     const getDatas = async () => {
         const datas = await axios.get("../../../json/headers.json")
         setDatas(datas.data)
         setListButtonPage(datas.data.button_page)
-        setSlides(datas.data.images_slide)
     }
     useEffect(() => {
         getDatas()
     }, [])
     // console.log('render header top')
+    const user_json = localStorage.getItem('user')
+    const user = JSON.parse(user_json)
+    const abc = () => {
+        Navigation(`/userdetail`)
+    }
     return (
         <div id="headers">
             <div className="container-xl container-fluid py-2 text-center d-md-flex align-items-center">
@@ -26,17 +39,23 @@ function Headers() {
                         : ''}
                 </div>
                 <div className=' d-none d-md-block search'>
-                    <div className='d-flex input-search'>
-                        <form>
-                            <input className='ps-2' placeholder='Tìm kiếm gì đó ...' />
-                            <i className="fa-solid fa-magnifying-glass"></i>
-                        </form>
-                    </div>
+                    <Search />
                 </div>
-                <div className='  header-button-list  d-none d-md-flex  aligin-items-center'>
-                    <Link className='btn-hover p-0 px-lg-3 py-2 ' to="/login">Đăng nhập</Link>
-                    <Link className='btn-hover p-0 px-lg-3 py-2 ' to="/register">Đăng ký</Link>
-                    <Link className='btn-hover p-0 px-lg-3 py-2 ' to="/cart">Giỏ hàng<i className=" ms-2 fa-sharp fa-solid fa-cart-plus"></i></Link>
+                <div className='  header-button-list  d-none d-md-flex  align-items-center'>
+                    {user ? (
+                        <div>
+                            {user.map(user => <div onClick={() => abc()} key={user.id}> <i className="fa-regular mx-2 fa-user"></i>{user.user_name}</div>)}
+                        </div>
+                    ) : (
+                        <> <Link className='btn-hover p-0 px-lg-3 py-2 ' to="/login">Đăng nhập</Link>
+                            <Link className='btn-hover p-0 px-lg-3 py-2 ' to="/register">Đăng ký</Link>
+                        </>
+                    )}
+
+                    <div className='d-flex align-items-center position-relative'>
+                        <Link className=' btn-hover p-0 px-lg-3 py-2 ' to="/cart"><i className="cart_icon  fa-sharp fa-solid fa-cart-plus"></i></Link>
+                        <span className='length_cart'>{getCartCount()}</span>
+                    </div>
                 </div>
                 {/* <hr className='d-md-none d-block' />
                 <div className='d-flex   d-md-none justify-content-around'>
@@ -53,7 +72,7 @@ function Headers() {
 
                 </div> */}
             </div>
-            <div className='bg_header_bottom py-1'>
+            <div className='bg_header_bottom shadow py-1'>
                 <HeaderBottom data={listButtonPage} />
             </div>
 
@@ -61,4 +80,4 @@ function Headers() {
 
     )
 }
-export default memo(Headers)
+export default Headers

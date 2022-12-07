@@ -1,6 +1,6 @@
 import axios from "axios"
 import { useState, useEffect } from 'react'
-
+import Product from "../../Components/contentHome/Product"
 function DetailItemProduct(props) {
     const [heading, setHeading] = useState([])
     const [products, setProducts] = useState([])
@@ -8,7 +8,6 @@ function DetailItemProduct(props) {
         const res = await axios.get("../../../json/content.json")
         setHeading(res.data.category.filter((item) => item.category_name === props.category_name))
         setProducts(res.data.product)
-       
     }
     useEffect(() => {
         getDatas()
@@ -33,18 +32,8 @@ function DetailItemProduct(props) {
                 ) : ''}
                 <div className="row">
                     {listProduct.map((product, index) => (
-                        <div key={index} className="col-3 ">
-                           
-                                <div className=" product ">
-                                    <div className="bg-white shadow-product">
-                                        <img src={product.url_img} width="100%" alt="img" />
-                                        <p className=" my-2">{product.product_name}</p>
-                                        <p >{product.price.toLocaleString()} VND</p>
-                                    </div>
-                                    <hr />
-                                </div>
-                            
-
+                        <div key={index} className="col-6 col-md-4 col-lg-3  ">
+                                <Product product={product}/>
                         </div>
                     ))}
                 </div>

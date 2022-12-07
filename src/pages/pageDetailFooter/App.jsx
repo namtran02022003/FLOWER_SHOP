@@ -26,7 +26,7 @@ function Apps({ heading }) {
                                  <hr />
                                 <h5>{i.title}</h5>
                                 <p>{i.content}</p>
-                                <img src={i.url} />
+                                <img src={i.url} width="100%"/>
                                
                             </div>
                         )

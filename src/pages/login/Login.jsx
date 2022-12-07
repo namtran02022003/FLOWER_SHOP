@@ -4,9 +4,12 @@ import { useNavigate } from 'react-router-dom'
 import Url_face from './../../images/face.png'
 import Url_gg from "../../images/gg.png"
 import Url_ins from "../../images/ins.jpeg"
-import {users} from '../../../json/userdatas.json'
+import { users } from '../../../json/userdatas.json'
+import axios from "axios";
+import { useState, useEffect,useRef } from 'react'
 export default function Login() {
-
+  const [user, setUser] = useState([])
+  const refMessage = useRef()
   const Navigation = useNavigate()
   const {
     register,
@@ -14,14 +17,24 @@ export default function Login() {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (datas) => {
-    users.map(user =>{
-      if(user.user_name === datas.user_name && user.password === datas.password){
-        Navigation('/')
-      }
-    })
-   
+ 
+  const onSubmit = async (datas) => {
+    const res = await axios.get('../../../json/userdatas.json')
+    const User_data = res.data.users.filter((user) => user.user_name === datas.user_name && user.password === datas.password)
+    if (User_data.length >0) {
+      const User = [{
+        ...User_data[0],
+        token:Math.random()
+      }]
+     console.log(User)
+      localStorage.setItem(`user`,JSON.stringify(User))
+      Navigation('/')
+    }else{
+      refMessage.current = "user notfound"
+    }
   };
+  const a = 'ddsf'
+
   return (
     <div className="bg-form">
       <div className=" container form-content">
@@ -29,13 +42,13 @@ export default function Login() {
           <h2 className="title_page">Đăng nhập tài khoản</h2>
         </div>
         <div className="row px-3">
-          <div className="col-6">
+          <div className="col-lg-6 d-none d-lg-block ">
             <div className="p-3">
               <img className="login-left-img" src="https://hoatuoi360.vn/uploads/file/hoa-hong-trang-mon-qua-dac-bi%E1%BA%B9t.jpg" alt="img" />
             </div>
           </div>
 
-          <div className="col-6">
+          <div className="col-sm-12 col-lg-6">
             <div className="p-3">
               <form className="p-3" id="login" onSubmit={handleSubmit(onSubmit)}>
                 <div>
@@ -72,11 +85,13 @@ export default function Login() {
                     <p className="m-0">vui long nhap mat khau</p>
                   )}
                 </div>
+                <div className="text-center">
+                  <span >{refMessage.current}</span>
+                </div>
                 <div className="text_a">
                   <a href="#">Quên mật khẩu</a>
                 </div>
                 <div className="text-center">
-
                   <button type="submit" className="btn_form btn_login">
                     Đăng nhập
                   </button>

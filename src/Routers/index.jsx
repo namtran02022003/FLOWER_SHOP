@@ -13,26 +13,35 @@ import HoaCuoi from "../pages/detail_item_product/HoaCuoi"
 import HoaKhaiTruong from "../pages/detail_item_product/HoaKhaiTruong"
 import BinhHoa from "../pages/detail_item_product/BinhHoa"
 import HoaTinhYeu from "../pages/detail_item_product/HoaTinhYeu"
+import DetailProduct from "../pages/detailProduct/DetailProduct"
+import UserDetail from "../pages/userDetail/UserDetail"
+import SearchDetail from "../pages/Search/SearchDetail"
 
-
-
+function NotFound() {
+    return (
+        <div >not found</div>
+    )
+}
 const publicRoutes = [
-    {path:'/', component:Home},
-    {path:'/cart', component:Cart},
-    {path:'/login', component:Login},
-    {path:'/register', component:Register},
-    {path:'/cauhoithuonggap', component:Page1},
-    {path:'/chinhsachhoantien', component:Page2},
-    {path:'/chinhsachvanchuyen', component:Page3},
-    {path:'/thongtinlienhe', component:Page4},
-    {path:'/gioithieu', component:Page5},
-    {path:'/bohoa', component:BoaHoa},
-    {path:'/giohoa', component:GioHoa},
-    {path:'/hoacuoi', component:HoaCuoi},
-    {path:'/hoakhaitruong', component:HoaKhaiTruong},
-    {path:'/hoatinhyeu', component:HoaTinhYeu},
-    {path:'/binhhoa', component:BinhHoa},
-   
+    { path: '/', component: Home },
+    { path: '/cart', component: Cart },
+    { path: '/login', component: Login },
+    { path: '/register', component: Register },
+    { path: '/cauhoithuonggap', component: Page1 },
+    { path: '/chinhsachhoantien', component: Page2 },
+    { path: '/chinhsachvanchuyen', component: Page3 },
+    { path: '/thongtinlienhe', component: Page4 },
+    { path: '/gioithieu', component: Page5 },
+    { path: '/bohoa', component: BoaHoa },
+    { path: '/giohoa', component: GioHoa },
+    { path: '/hoacuoi', component: HoaCuoi },
+    { path: '/hoakhaitruong', component: HoaKhaiTruong },
+    { path: '/hoatinhyeu', component: HoaTinhYeu },
+    { path: '/binhhoa', component: BinhHoa },
+    { path: '/detailproduct/:id', component: DetailProduct },
+    { path: '*', component: NotFound },
+    { path: '/userdetail', component: UserDetail },
+    { path: '/search/:name', component: SearchDetail },
 ]
 
 

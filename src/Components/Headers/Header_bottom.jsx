@@ -1,11 +1,10 @@
-import { memo } from 'react'
+import { memo,useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
 function HeaderBottom({ data }) {
-    
-    // console.log('render header bottom')
+   
     return (
-        <div className="heder_bottom container">
+        <div className="heder_bottom   container">
             <div className="d-flex justify-content-around">
                 {data.map((button, index) => {
                     return (
@@ -14,6 +13,7 @@ function HeaderBottom({ data }) {
                        </NavLink>
                     )
                 })}
+             
             </div>
         </div>
     )

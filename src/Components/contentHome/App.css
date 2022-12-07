@@ -13,3 +13,16 @@
 .heading_item_product{
     color: #af838a;
 }
+.min_heigth{
+    min-height: 65px;
+}
+.btn_addCart{
+    background-color: rgb(241 223 228);
+    border: none;
+    padding:5px 10px;
+    color:rgb(126, 37, 52);
+    border-radius:5px
+}
+.content{
+    margin: 160px 0 0 0 !important;
+}

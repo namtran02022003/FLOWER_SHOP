@@ -30,17 +30,17 @@ export default function Register() {
     }
     return (
         <div className="bg-form">
-            <div className="container form-content">
+            <div className="container  form-content">
                 <div className="text-center">
                     <h2 className="title_page">Đăng ký</h2>
                 </div>
                 <div className="row px-3">
-                    <div className="col-6">
+                    <div className="col-lg-6 d-none d-lg-block">
                         <div className="p-3">
                             <img className="login-left-img" src="https://hoatuoi360.vn/uploads/file/hoa-hong-trang-mon-qua-dac-bi%E1%BA%B9t.jpg" alt="img" />
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className="col-sm-12 col-lg-6">
                         <div className="p-3">
                             <form className='px-3' id="login" onSubmit={handleSubmit(onSubmit)}>
 

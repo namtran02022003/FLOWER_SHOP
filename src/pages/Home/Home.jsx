@@ -7,9 +7,9 @@ export default function Home(){
              <div className='container my-3'>
              <h6 className="text-center">ĐẶT HOA NHANH - GỌI NGAY 037 277 0547 - 090 619 2436 HOẶC 036 606 3709</h6>
                 <Slide />
-                
             </div>
-            <div className="content">
+            <div className="">
+              
                     <ContentHome 
                     category_name = "Hoa Cưới"
                     />
