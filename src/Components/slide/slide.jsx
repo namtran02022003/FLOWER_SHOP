@@ -1,8 +1,9 @@
 import './slide.css'
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState,memo } from 'react'
 import axios from 'axios'
 
 function Slide() {
+    console.log('render slide')
     const [data, setData] = useState([])
     const getDatas = async () => {
         const res = await axios.get("../../../json/headers.json")
@@ -64,4 +65,4 @@ function Slide() {
         </div>
     )
 }
-export default Slide
+export default memo(Slide)

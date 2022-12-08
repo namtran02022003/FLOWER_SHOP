@@ -1,12 +1,15 @@
 import { useNavigate} from 'react-router-dom'
-
-
+import { useContext } from 'react'
+import { CartContext } from '../../App'
 export default function UserDetail(){
+    const dataContext = useContext(CartContext)
     const Navitage = useNavigate()
 const user_json = localStorage.getItem('user')
 const user = JSON.parse(user_json)
 const logout=()=>{
     localStorage.removeItem('user')
+dataContext.setUser([])
+dataContext.setCartsUser([])
     Navitage('/login')
 }
      if(user){

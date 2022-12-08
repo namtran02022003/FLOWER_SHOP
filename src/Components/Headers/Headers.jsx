@@ -4,17 +4,11 @@ import { useState, useEffect, memo, useContext } from 'react'
 import HeaderBottom from './Header_bottom'
 import { Link, useNavigate } from 'react-router-dom'
 import Search from './Search'
-
 import { CartContext } from '../../App'
 function Headers() {
+    console.log('render header')
     const dataCart = useContext(CartContext)
     const Navigation = useNavigate()
-
-    const getCartCount = () => {
-        return dataCart.carts.reduce((total, product) => total + product.count, 0);
-    };
-
-
     const [listButtonPage, setListButtonPage] = useState([])
     const [datas, setDatas] = useState([])
     const getDatas = async () => {
@@ -31,8 +25,11 @@ function Headers() {
     const abc = () => {
         Navigation(`/userdetail`)
     }
+    // console.log(dataCart)
+   
     return (
         <div id="headers">
+
             <div className="container-xl container-fluid py-2 text-center d-md-flex align-items-center">
                 <div className='logo text-center'>
                     {datas.logo_shop ? <Link to="/"><img src={datas.logo_shop} width="90%" /></Link>
@@ -54,23 +51,10 @@ function Headers() {
 
                     <div className='d-flex align-items-center position-relative'>
                         <Link className=' btn-hover p-0 px-lg-3 py-2 ' to="/cart"><i className="cart_icon  fa-sharp fa-solid fa-cart-plus"></i></Link>
-                        <span className='length_cart'>{getCartCount()}</span>
+                        <span className='length_cart'>{dataCart.count}</span>
                     </div>
                 </div>
-                {/* <hr className='d-md-none d-block' />
-                <div className='d-flex   d-md-none justify-content-around'>
-                    <div className='d-flex input-search'>
-                        <form>
-                            <input className='ps-2' placeholder='Tìm kiếm gì đó ...' />
-                            <i className="fa-solid fa-magnifying-glass"></i>
-                        </form>
-                    </div>
-                    
-                    <div className='menu-header '>
-                        <button>menu</button>
-                    </div>
 
-                </div> */}
             </div>
             <div className='bg_header_bottom shadow py-1'>
                 <HeaderBottom data={listButtonPage} />
@@ -80,4 +64,4 @@ function Headers() {
 
     )
 }
-export default Headers
+export default memo(Headers)

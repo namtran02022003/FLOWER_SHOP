@@ -6,8 +6,10 @@ import Url_gg from "../../images/gg.png"
 import Url_ins from "../../images/ins.jpeg"
 import { users } from '../../../json/userdatas.json'
 import axios from "axios";
-import { useState, useEffect,useRef } from 'react'
+import { useState, useEffect,useRef,useContext } from 'react'
+import { CartContext } from "../../App";
 export default function Login() {
+  const dataCartsContex = useContext(CartContext)
   const [user, setUser] = useState([])
   const refMessage = useRef()
   const Navigation = useNavigate()
@@ -26,8 +28,21 @@ export default function Login() {
         ...User_data[0],
         token:Math.random()
       }]
-     console.log(User)
       localStorage.setItem(`user`,JSON.stringify(User))
+      dataCartsContex.setUser(User)
+      const cartUserStorage = localStorage.getItem(`cart${User[0].id}`)
+      if(JSON.parse(cartUserStorage)){
+        dataCartsContex.setCartsUser(JSON.parse(cartUserStorage))
+      }else{
+        const CART = 
+          {
+            userid:User[0].id,
+            carts:[]
+          }
+        
+        localStorage.setItem(`cart${User[0].id}`,JSON.stringify(CART))
+        dataCartsContex.setCartsUser(CART)
+      }
       Navigation('/')
     }else{
       refMessage.current = "user notfound"

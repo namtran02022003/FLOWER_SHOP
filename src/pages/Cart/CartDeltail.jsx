@@ -3,24 +3,42 @@ import { useState, useEffect, useContext } from 'react'
 import { CartContext } from '../../App'
 
 function CartDetail({ product }) {
-    const datas = useContext(CartContext)
+    console.log('reder cartdetail')
+    const dataCarts = useContext(CartContext)
+    
     const RemoveProduct = (id) => {
-        const cartCopy = datas.carts.filter(item => item.id !== id)
-        datas.setCarts(cartCopy)
+        const cartCopy = dataCarts.cartsUser.carts.filter(item => item.id !== id)
+       
+       const CART = {
+        userid:dataCarts.user[0].id,
+        carts:cartCopy
+       }
+       localStorage.setItem(`cart${dataCarts.user[0].id}`,JSON.stringify(CART))
+       dataCarts.setCartsUser(CART)
     }
     const upCount = (id) => {
-        const cartCopy = datas.carts.slice();
+        const cartCopy = dataCarts.cartsUser.carts.slice();
         const index = cartCopy.findIndex((product) => product.id === id);
         const pr = cartCopy[index];
         cartCopy[index] = { ...pr, count: pr.count + 1 };
-        datas.setCarts(cartCopy);
+        const CART = {
+            userid:dataCarts.user[0].id,
+            carts:cartCopy
+           }
+           localStorage.setItem(`cart${dataCarts.user[0].id}`,JSON.stringify(CART))
+           dataCarts.setCartsUser(CART)
     }
     const dowCount = (id) => {
-        const cartCopy = datas.carts.slice();
+        const cartCopy = dataCarts.cartsUser.carts.slice();
         const index = cartCopy.findIndex((product) => product.id === id);
         const pr = cartCopy[index];
         cartCopy[index] = { ...pr, count: pr.count - 1 };
-        datas.setCarts(cartCopy);
+        const CART = {
+            userid:dataCarts.user[0].id,
+            carts:cartCopy
+           }
+           localStorage.setItem(`cart${dataCarts.user[0].id}`,JSON.stringify(CART))
+           dataCarts.setCartsUser(CART)
     }
     return (
         <div className="row align-items-center">

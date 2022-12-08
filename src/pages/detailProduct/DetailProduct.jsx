@@ -1,14 +1,17 @@
 import axios from "axios"
-import { useState, useEffect, useRef, useContext } from 'react'
+import { useState, useEffect, useRef, useContext,memo } from 'react'
 import { useParams,useNavigate } from 'react-router-dom'
 import './App.css'
 import { CartContext } from "../../App"
-export default function DetailProduct() {
+ function DetailProduct() {
+    console.log('reder dataiproduct')
+
     const [toggleMessage, setTonggleMessage] = useState(false)
     const Navitage = useNavigate()
     const dataCartContext = useContext(CartContext)
     const { id } = useParams()
     const [productDetail, setProductDetail] = useState([])
+
     const getProductDetail = async () => {
         const res = await axios.get("../../../json/content.json")
         const dataDetail = res.data.product.filter(product => product.id === Number(id))
@@ -39,8 +42,13 @@ export default function DetailProduct() {
             }
         }
     })
+    
     const handleCart = (product) => {
-        const cartCopy = dataCartContext.carts.slice();
+
+          if(dataCartContext.user && dataCartContext.user.length > 0){
+           const dataCart = dataCartContext.cartsUser
+          
+            const cartCopy = dataCart.carts.slice();
         const index = cartCopy.findIndex((datas) => datas.id === product.id); 
         if (index === -1) {
             cartCopy.push({ ...product, count: 1 });
@@ -48,17 +56,26 @@ export default function DetailProduct() {
             const pr = cartCopy[index];
             cartCopy[index] = { ...pr, count: pr.count + 1 };
         }
-        dataCartContext.setCarts(cartCopy);
+      
+        const CART = {
+            userid:dataCartContext.user[0].id,
+            carts:cartCopy
+        }
+        
+        localStorage.setItem(`cart${dataCartContext.user[0].id}`,JSON.stringify(CART))
+        dataCartContext.setCartsUser(CART);
     setTonggleMessage(true)
+         }else{
+            Navitage('/login')
+        }
+
     }
-    
     const ab = ()=>{
         setTonggleMessage(false)
     }
         if(toggleMessage){
             setTimeout(ab,3000)
         }
-    
     function Message(){
         return(
             <div className="message_cart">
@@ -69,6 +86,7 @@ export default function DetailProduct() {
             </div>
         )
     }
+
     return (
         <div className="container">
          {toggleMessage &&    <Message />}
@@ -112,3 +130,4 @@ export default function DetailProduct() {
         </div>
     )
 }
+export default memo(DetailProduct)
