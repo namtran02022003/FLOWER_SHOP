@@ -1,31 +1,32 @@
-import { createContext, useState, useEffect } from 'react'
+import { createContext, useState, useEffect,Fragment } from 'react'
 import { publicRoutes } from './Routers/index'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import DefauLayout from "./Components/defaulayout"
+import React from 'react'
 export const CartContext = createContext()
 function App() {
   const [cartsUser, setCartsUser] = useState([])
   const [user, setUser] = useState([])
-  const [count,setCount] = useState(0)
+  const [count, setCount] = useState(0)
   function getDatas() {
     const userStorage = localStorage.getItem('user')
     if (userStorage) {
       const dataUser = JSON.parse(userStorage)
       setUser(dataUser)
       const cartStorage = localStorage.getItem(`cart${dataUser[0].id}`)
-      if(cartStorage){
+      if (cartStorage) {
         const dataCartStorage = JSON.parse(cartStorage)
         console.log(dataCartStorage)
         setCartsUser({
-          userid:dataUser[0].id,
-          carts:[...dataCartStorage.carts]
+          userid: dataUser[0].id,
+          carts: [...dataCartStorage.carts]
         })
-      }else{
+      } else {
         const CART = {
-          userid:dataUser[0].id,
-          carts:[]
+          userid: dataUser[0].id,
+          carts: []
         }
-        localStorage.setItem(`cart${dataUser[0].id}`,JSON.stringify(CART))
+        localStorage.setItem(`cart${dataUser[0].id}`, JSON.stringify(CART))
         setCartsUser(CART)
       }
     } else {
@@ -35,26 +36,34 @@ function App() {
   useEffect(() => {
     getDatas()
   }, [])
-  console.log('reder app')
-  useEffect(()=>{
-    if(cartsUser.carts ){
-        const total = ()=>{
-            return cartsUser.carts.reduce((a,b) => a+ b.count ,0)
-        }
-        setCount(total())
-        console.log(total())
-       }else{
-        setCount(0)
-       }
-   })
+
+  useEffect(() => {
+    if (cartsUser.carts) {
+      const total = () => {
+        return cartsUser.carts.reduce((a, b) => a + b.count, 0)
+      }
+      setCount(total())
+     
+    } else {
+      setCount(0)
+    }
+  })
+
+
+
+  function Abc({page}){
+    return(
+      <div>{page}</div>
+    )
+  }
   return (
     <CartContext.Provider value={{
       cartsUser: cartsUser,
       setCartsUser: setCartsUser,
       user: user,
       setUser: setUser,
-      count:count,
-      setCount:setCount
+      count: count,
+      setCount: setCount
     }}>
       <div className="app">
         <Router>
@@ -62,6 +71,11 @@ function App() {
             {publicRoutes.map((route, index) => {
               var Page = route.component
               let Layout = DefauLayout
+              if(route.layout){
+                Layout = route.layout
+              }if(route.layout === null){
+                Layout= Abc
+              }
               return <Route key={index} path={route.path} element={<Layout page={<Page />}></Layout>}></Route>
             })}
           </Routes>

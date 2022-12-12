@@ -1,14 +1,13 @@
 import axios from 'axios'
-import { useState, useEffect } from 'react'
+import { useState, useEffect,memo } from 'react'
 import './App.css'
 import {useNavigate} from 'react-router-dom'
 
-export default function Footer() {
+ function Footer() {
     const Navigation = useNavigate()
     const [dataLeft, setDataLeft] = useState([])
     const [iconsUrl, setIconUrl] = useState([])
     const [address, setAddress] = useState([])
-    
     const getDatas = async () => {
         const res = await axios.get('../../../json/footer_list.json')
         setDataLeft(res.data.list_header_left)
@@ -17,11 +16,12 @@ export default function Footer() {
     }
     useEffect(() => {
         getDatas()
-    }, [])
+    },[])
     const handlePage =(data)=>{
         
      Navigation(`/${data}`)
     }
+   
     return (
        <div className='bg_footer_bottom mt-5'>
        <div className="container ">
@@ -74,3 +74,4 @@ export default function Footer() {
         
     )
 }
+export default memo(Footer)

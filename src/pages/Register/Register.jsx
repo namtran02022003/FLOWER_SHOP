@@ -4,27 +4,29 @@ import Url_gg from "../../images/gg.png"
 import Url_ins from "../../images/ins.jpeg"
 import { useRef } from 'react'
 import axios from 'axios'
-import {useNavigate} from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 export default function Register() {
     const Navitage = useNavigate()
     const refMessage = useRef('')
     const refSpan = useRef()
     const { register, handleSubmit, formState: { errors } } = useForm()
 
-    const onSubmit = async(data) => {
+    const onSubmit = async (data) => {
         if (data.password !== data.re_password) {
             refMessage.current = "nhap lai mk"
-        }else{
+        } else {
             const d = new Date()
-           const datas = {
-           user_name:data.user_name,
-           password:data.password,
-           email:data.email,
-            created_date: d.getDate()+'/'+Number(d.getMonth()+1)+'/'+Number(d.getFullYear()),
-            created_by: "user"
-           }
-        await axios.post(' http://localhost:3000/users',datas)
-       Navitage('/')
+            const datas = {
+                user_name: data.user_name,
+                password: data.password,
+                email: data.email,
+                created_date: d.getDate() + '/' + Number(d.getMonth() + 1) + '/' + Number(d.getFullYear()),
+                created_by: "user",
+                modified_date: "",
+                modified_by: "",
+            }
+            await axios.post(' http://localhost:3000/users', datas)
+            Navitage('/')
         }
         refSpan.current.innerHTML = refMessage.current
     }
@@ -42,7 +44,7 @@ export default function Register() {
                     </div>
                     <div className="col-sm-12 col-lg-6">
                         <div className="p-3">
-                            <form className='px-3' id="login" onSubmit={handleSubmit(onSubmit)}>
+                            <form className='px-3 login'  onSubmit={handleSubmit(onSubmit)}>
 
                                 <div>
                                     <label>Tên đăng nhập:</label>
@@ -86,7 +88,7 @@ export default function Register() {
                                 <div>
                                     <label>Mật khẩu:</label>
                                     <input
-                                        type="text"
+                                        type="password"
                                         placeholder="mật khẩu"
                                         {...register("password", {
                                             required: true,
@@ -103,7 +105,7 @@ export default function Register() {
                                 <div>
                                     <label>nhập lại Mật khẩu:</label>
                                     <input
-                                        type="text"
+                                        type="password"
                                         placeholder="nhập lại mật khẩu"
                                         {...register("re_password", {
                                             required: true,

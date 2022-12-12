@@ -21,7 +21,14 @@
         width: 80%;
         margin: auto;
     }
-    
+   .content{
+    padding-top: 200px;
+   }
+}
+@media only screen and (min-width: 767px){
+    .content{
+        padding-top: 140px;
+       }
 }
 .header-button-list{
     display: flex;
@@ -158,6 +165,9 @@
     background-color: white;
     top: 0;
     margin: 0 0 50px 0;
+    border-bottom: 0.5px solid #ccc;
   }
- 
+ .logo img{
+    max-height: 90px;
+ }
   

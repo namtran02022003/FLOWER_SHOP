@@ -16,9 +16,10 @@ dataContext.setCartsUser([])
         return(
             user.map(user =>{
                 return(
-                    <div key={user.id}>
-                    <h1 className="text-center" >userName: {user.user_name}</h1>
-                    <button onClick={()=>logout()}>Đăng xuất</button>
+                    <div className='text-center' key={user.id}>
+                    <p>userName: {user.user_name}</p>
+                    <p>Email: {user.email}</p>
+                    <button className='btn btn-dark' onClick={()=>logout()}>Đăng xuất</button>
                     </div>
                 )
             })

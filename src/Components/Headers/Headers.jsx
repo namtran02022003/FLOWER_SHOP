@@ -5,8 +5,9 @@ import HeaderBottom from './Header_bottom'
 import { Link, useNavigate } from 'react-router-dom'
 import Search from './Search'
 import { CartContext } from '../../App'
+import HeaderMobile from '../HeaderMobile/HeaderMobile'
 function Headers() {
-    console.log('render header')
+
     const dataCart = useContext(CartContext)
     const Navigation = useNavigate()
     const [listButtonPage, setListButtonPage] = useState([])
@@ -26,19 +27,20 @@ function Headers() {
         Navigation(`/userdetail`)
     }
     // console.log(dataCart)
-   
-    return (
-        <div id="headers">
 
-            <div className="container-xl container-fluid py-2 text-center d-md-flex align-items-center">
+    return (
+        <div id="headers" className='shadow'>
+
+            <div className="container-xl container-fluid pt-2 text-center d-md-flex align-items-center">
                 <div className='logo text-center'>
                     {datas.logo_shop ? <Link to="/"><img src={datas.logo_shop} width="90%" /></Link>
                         : ''}
                 </div>
-                <div className=' d-none d-md-block search'>
+                <hr className='m-0' />
+                <div className='search d-none d-md-block'>
                     <Search />
                 </div>
-                <div className='  header-button-list  d-none d-md-flex  align-items-center'>
+                <div className='header-button-list d-none d-md-flex align-items-center'>
                     {user ? (
                         <div>
                             {user.map(user => <div onClick={() => abc()} key={user.id}> <i className="fa-regular mx-2 fa-user"></i>{user.user_name}</div>)}
@@ -54,12 +56,13 @@ function Headers() {
                         <span className='length_cart'>{dataCart.count}</span>
                     </div>
                 </div>
-
+                <div className='d-md-none d-flex'>
+                    <HeaderMobile count = {dataCart.count} user={user} abc={abc} datas = {listButtonPage} />
+                </div>
             </div>
-            <div className='bg_header_bottom shadow py-1'>
+            <div className='bg_header_bottom shadow py-1 d-none d-md-block'>
                 <HeaderBottom data={listButtonPage} />
             </div>
-
         </div>
 
     )

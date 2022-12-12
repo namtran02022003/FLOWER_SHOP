@@ -3,18 +3,18 @@ import { useState, useEffect, useContext } from 'react'
 import { CartContext } from '../../App'
 
 function CartDetail({ product }) {
-    console.log('reder cartdetail')
+
     const dataCarts = useContext(CartContext)
-    
+
     const RemoveProduct = (id) => {
         const cartCopy = dataCarts.cartsUser.carts.filter(item => item.id !== id)
-       
-       const CART = {
-        userid:dataCarts.user[0].id,
-        carts:cartCopy
-       }
-       localStorage.setItem(`cart${dataCarts.user[0].id}`,JSON.stringify(CART))
-       dataCarts.setCartsUser(CART)
+
+        const CART = {
+            userid: dataCarts.user[0].id,
+            carts: cartCopy
+        }
+        localStorage.setItem(`cart${dataCarts.user[0].id}`, JSON.stringify(CART))
+        dataCarts.setCartsUser(CART)
     }
     const upCount = (id) => {
         const cartCopy = dataCarts.cartsUser.carts.slice();
@@ -22,11 +22,11 @@ function CartDetail({ product }) {
         const pr = cartCopy[index];
         cartCopy[index] = { ...pr, count: pr.count + 1 };
         const CART = {
-            userid:dataCarts.user[0].id,
-            carts:cartCopy
-           }
-           localStorage.setItem(`cart${dataCarts.user[0].id}`,JSON.stringify(CART))
-           dataCarts.setCartsUser(CART)
+            userid: dataCarts.user[0].id,
+            carts: cartCopy
+        }
+        localStorage.setItem(`cart${dataCarts.user[0].id}`, JSON.stringify(CART))
+        dataCarts.setCartsUser(CART)
     }
     const dowCount = (id) => {
         const cartCopy = dataCarts.cartsUser.carts.slice();
@@ -34,11 +34,11 @@ function CartDetail({ product }) {
         const pr = cartCopy[index];
         cartCopy[index] = { ...pr, count: pr.count - 1 };
         const CART = {
-            userid:dataCarts.user[0].id,
-            carts:cartCopy
-           }
-           localStorage.setItem(`cart${dataCarts.user[0].id}`,JSON.stringify(CART))
-           dataCarts.setCartsUser(CART)
+            userid: dataCarts.user[0].id,
+            carts: cartCopy
+        }
+        localStorage.setItem(`cart${dataCarts.user[0].id}`, JSON.stringify(CART))
+        dataCarts.setCartsUser(CART)
     }
     return (
         <div className="row align-items-center">

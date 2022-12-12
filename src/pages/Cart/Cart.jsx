@@ -2,19 +2,23 @@ import { useContext, useState, useEffect } from 'react'
 import { CartContext } from '../../App'
 import CartDetail from './CartDeltail'
 import { useNavigate } from 'react-router-dom'
+import FoemCartValue from './formCartValue'
 export default function Cart() {
-    console.log('render cart')
+
     const Navitage = useNavigate()
     const dataCarts = useContext(CartContext)
     const user = JSON.parse(localStorage.getItem('user'))
-    
-    if( user && user.length > 0){
+
+    if (user && user.length > 0) {
         const dataCartLocalstorage = localStorage.getItem(`cart${user[0].id}`)
         var CARTDATAS = JSON.parse(dataCartLocalstorage)
         if (CARTDATAS.carts && CARTDATAS.carts.length > 0) {
+            console.log('cart', CARTDATAS)
+            const total = () => {
+                return CARTDATAS.carts.reduce((a, b) => a + b.price * b.count, 0)
+            }
             return (
                 <div className='container'>
-                    <button onClick={()=> dataCarts.setCount(pre => pre+1)}>fdf</button>
                     <h1 className='text-center'>Giỏ Hàng</h1>
                     <hr />
                     <div className='row'>
@@ -41,8 +45,13 @@ export default function Cart() {
                         )
                     })}
                     <hr />
-                    <div className=''>
-                        {/* <p >tong:{total()}</p> */}
+                    <div className='row m-0'>
+                        <div className="col-lg-6 col-12 order-22 my-2">
+                            <FoemCartValue data = {CARTDATAS}/>
+                        </div>
+                        <div className="col-lg-6 col-12 order-11 text-center my-2">
+                        <h4 >tong: {total().toLocaleString()} VND</h4>
+                        </div>
                     </div>
                 </div>
             )
@@ -54,17 +63,18 @@ export default function Cart() {
                     <h5 className='text-center'>Giỏ Hàng Của Bạn Đang Trống</h5>
                 </>
             )
-    
+
         }
-    }else{
-        return(
-            <div >
-                <p>vui long dang nhap <button onClick={()=>Navitage('/login')}>dang nhap</button></p>
+    } else {
+        return (
+            <div className='text-center'>
+                <p>Vui lòng đăng nhập để xem giỏ hàng của bạn </p>
+                <button className='btn btn-dark' onClick={() => Navitage('/login')}>dang nhap</button>
             </div>
         )
     }
 
-   
+
 
 
     // const user = localStorage.getItem('user')

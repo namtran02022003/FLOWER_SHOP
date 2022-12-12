@@ -4,7 +4,6 @@ import { useNavigate } from 'react-router-dom'
 import Url_face from './../../images/face.png'
 import Url_gg from "../../images/gg.png"
 import Url_ins from "../../images/ins.jpeg"
-import { users } from '../../../json/userdatas.json'
 import axios from "axios";
 import { useState, useEffect,useRef,useContext } from 'react'
 import { CartContext } from "../../App";
@@ -65,7 +64,7 @@ export default function Login() {
 
           <div className="col-sm-12 col-lg-6">
             <div className="p-3">
-              <form className="p-3" id="login" onSubmit={handleSubmit(onSubmit)}>
+              <form className="p-3 login"  onSubmit={handleSubmit(onSubmit)}>
                 <div>
                   <label>Tên đăng nhập:</label>
                   <input

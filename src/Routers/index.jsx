@@ -16,7 +16,7 @@ import HoaTinhYeu from "../pages/detail_item_product/HoaTinhYeu"
 import DetailProduct from "../pages/detailProduct/DetailProduct"
 import UserDetail from "../pages/userDetail/UserDetail"
 import SearchDetail from "../pages/Search/SearchDetail"
-
+import SearchMobile from "../pages/search_mobile/Search_mobile"
 function NotFound() {
     return (
         <div >not found</div>
@@ -39,9 +39,11 @@ const publicRoutes = [
     { path: '/hoatinhyeu', component: HoaTinhYeu },
     { path: '/binhhoa', component: BinhHoa },
     { path: '/detailproduct/:id', component: DetailProduct },
-    { path: '*', component: NotFound },
+    { path: '*', component: NotFound,layout : null },
     { path: '/userdetail', component: UserDetail },
     { path: '/search/:name', component: SearchDetail },
+    { path: '/search', component: SearchMobile },
+    
 ]
 
 

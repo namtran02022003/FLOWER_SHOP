@@ -19,7 +19,8 @@ function Search() {
     }
     return (
         <div className='d-flex position-relative input-search'>
-            <form >
+         
+            <form className='text-center'>
                 <input
                     className='ps-2'
                     placeholder='Tìm kiếm gì đó ...'

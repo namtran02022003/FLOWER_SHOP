@@ -112,7 +112,11 @@
       "created_by": "ad 1",
       "img_detail": [
         "../src/images/hc1.jpg",
-        "../src/images/hc2.jpg"
+        "../src/images/hc2.jpg",
+        "../src/images/hc3.jpg",
+        "../src/images/hc4.jpg",
+        "../src/images/hc5.png"
+      
       ],
       "detail_product": {
         "title": "mô tả sản phẩm",

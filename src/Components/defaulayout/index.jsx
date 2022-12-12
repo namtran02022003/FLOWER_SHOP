@@ -1,8 +1,9 @@
 
 import Headers from "../Headers/Headers"
 import Footer from "../Footer/Footer"
-
-export default function DefauLayout({ page }) {
+import { memo } from 'react'
+ function DefauLayout({ page }) {
+  
     return (
         <>
             <Headers />
@@ -13,3 +14,4 @@ export default function DefauLayout({ page }) {
         </>
     )
 }
+export default memo(DefauLayout)
