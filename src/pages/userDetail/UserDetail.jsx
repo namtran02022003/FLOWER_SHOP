@@ -4,25 +4,20 @@ import { CartContext } from '../../App'
 export default function UserDetail(){
     const dataContext = useContext(CartContext)
     const Navitage = useNavigate()
-const user_json = localStorage.getItem('user')
-const user = JSON.parse(user_json)
+
 const logout=()=>{
     localStorage.removeItem('user')
-dataContext.setUser([])
+dataContext.setUser({})
 dataContext.setCartsUser([])
     Navitage('/login')
 }
-     if(user){
+     if(dataContext.user){
         return(
-            user.map(user =>{
-                return(
-                    <div className='text-center' key={user.id}>
-                    <p>userName: {user.user_name}</p>
-                    <p>Email: {user.email}</p>
+                    <div className='text-center pt-2'  >
+                    <p>userName: {dataContext.user.user_name}</p>
+                    <p>Email: {dataContext.user.email}</p>
                     <button className='btn btn-dark' onClick={()=>logout()}>Đăng xuất</button>
                     </div>
-                )
-            })
         )
      }
 }

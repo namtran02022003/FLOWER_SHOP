@@ -12,6 +12,7 @@ function Headers() {
     const Navigation = useNavigate()
     const [listButtonPage, setListButtonPage] = useState([])
     const [datas, setDatas] = useState([])
+    const [userDetail,setUserDetail] = useState({})
     const getDatas = async () => {
         const datas = await axios.get("../../../json/headers.json")
         setDatas(datas.data)
@@ -19,15 +20,19 @@ function Headers() {
     }
     useEffect(() => {
         getDatas()
+       
     }, [])
+    const ab = localStorage.getItem('user')
+    useEffect(() => {
+       
+
+        setUserDetail(JSON.parse(ab))
+    },[ab])
     // console.log('render header top')
-    const user_json = localStorage.getItem('user')
-    const user = JSON.parse(user_json)
+   
     const abc = () => {
         Navigation(`/userdetail`)
     }
-    // console.log(dataCart)
-
     return (
         <div id="headers" className='shadow'>
 
@@ -41,9 +46,9 @@ function Headers() {
                     <Search />
                 </div>
                 <div className='header-button-list d-none d-md-flex align-items-center'>
-                    {user ? (
+                    {userDetail && userDetail.user_name ? (
                         <div>
-                            {user.map(user => <div onClick={() => abc()} key={user.id}> <i className="fa-regular mx-2 fa-user"></i>{user.user_name}</div>)}
+                             <div onClick={() => abc()} > <i className="fa-regular mx-2 fa-user"></i>{userDetail.user_name}</div>
                         </div>
                     ) : (
                         <> <Link className='btn-hover p-0 px-lg-3 py-2 ' to="/login">Đăng nhập</Link>
@@ -57,7 +62,7 @@ function Headers() {
                     </div>
                 </div>
                 <div className='d-md-none d-flex'>
-                    <HeaderMobile count = {dataCart.count} user={user} abc={abc} datas = {listButtonPage} />
+                    <HeaderMobile count = {dataCart.count} user={dataCart.user} abc={abc} datas = {listButtonPage} />
                 </div>
             </div>
             <div className='bg_header_bottom shadow py-1 d-none d-md-block'>

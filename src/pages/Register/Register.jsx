@@ -15,6 +15,7 @@ export default function Register() {
         if (data.password !== data.re_password) {
             refMessage.current = "nhap lai mk"
         } else {
+            refSpan.current.innerHTML = "đăng kí thành công"
             const d = new Date()
             const datas = {
                 user_name: data.user_name,
@@ -25,6 +26,7 @@ export default function Register() {
                 modified_date: "",
                 modified_by: "",
             }
+           
             await axios.post(' http://localhost:3000/users', datas)
             Navitage('/')
         }
@@ -46,7 +48,7 @@ export default function Register() {
                         <div className="p-3">
                             <form className='px-3 login'  onSubmit={handleSubmit(onSubmit)}>
 
-                                <div>
+                                <div className='my-2 position-relative'>
                                     <label>Tên đăng nhập:</label>
                                     <input
                                         type="text"
@@ -57,14 +59,14 @@ export default function Register() {
                                         })}
                                     />
                                     {errors.user_name?.type === "minLength" && (
-                                        <p className="m-0">vui long nhap toi thieu 8 ki tu</p>
+                                        <p className="m-0 message_form">Vui lòng nhập tối thiểu 8 kí tự</p>
                                     )}
                                     {errors.user_name?.type === "required" && (
-                                        <p className="m-0">vui long nhap ten dang nhap</p>
+                                        <p className="m-0 message_form">Vui lòng nhập tên đăng nhập</p>
                                     )}
 
                                 </div>
-                                <div>
+                                <div className='my-2 position-relative'>
                                     <label>email:</label>
                                     <input
                                         type="emial"
@@ -76,16 +78,16 @@ export default function Register() {
                                         })}
                                     />
                                     {errors.email?.type === "minLength" && (
-                                        <p className="m-0">vui long nhap toi thieu 8 ki tu</p>
+                                        <p className="m-0 message_form">Vui lòng nhập tối thiểu 8 kí tự</p>
                                     )}
                                     {errors.email?.type === "required" && (
-                                        <p className="m-0">vui long nhap email</p>
+                                        <p className="m-0 message_form">Vui lòng nhập email</p>
                                     )}
                                     {errors.email?.type === "pattern" && (
-                                        <p className="m-0">vui long nhap dung email</p>
+                                        <p className="m-0 message_form">Vui lòng nhập đúng email</p>
                                     )}
                                 </div>
-                                <div>
+                                <div className='my-2 position-relative'>
                                     <label>Mật khẩu:</label>
                                     <input
                                         type="password"
@@ -96,13 +98,13 @@ export default function Register() {
                                         })}
                                     />
                                     {errors.password?.type === "minLength" && (
-                                        <p className="m-0">vui long nhap toi thieu 8 ki tu</p>
+                                        <p className="m-0 message_form">Vui lòng nhập tối thiểu 8 kí tự</p>
                                     )}
                                     {errors.password?.type === "required" && (
-                                        <p className="m-0">vui long nhap mat khau</p>
+                                        <p className="m-0 message_form">Vui lòng nhập mật khẩu</p>
                                     )}
                                 </div>
-                                <div>
+                                <div className='my-2 position-relative'>
                                     <label>nhập lại Mật khẩu:</label>
                                     <input
                                         type="password"
@@ -113,10 +115,10 @@ export default function Register() {
                                         })}
                                     />
                                     {errors.re_password?.type === "minLength" && (
-                                        <p className="m-0">vui long nhap toi thieu 8 ki tu</p>
+                                        <p className="m-0 message_form">Vui lòng nhập tối thiểu 8 kí tự</p>
                                     )}
                                     {errors.re_password?.type === "required" && (
-                                        <p className="m-0">vui long nhap lại mat khau</p>
+                                        <p className="m-0 message_form">Vui lòng nhập lại mật khẩu</p>
                                     )}
                                 </div>
                                 <div className="text-center">

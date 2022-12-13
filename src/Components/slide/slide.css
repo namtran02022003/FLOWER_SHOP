@@ -22,3 +22,14 @@
     right: 6%;
     transform: translateY(-50%);
 }
+@media only screen and (max-width:768px) {
+    .click_left, .click_right{
+        font-size: 30px !important;
+    }
+    .click_left{
+        left: 10%;
+    }
+    .click_right{
+        right: 10%;
+    }
+}

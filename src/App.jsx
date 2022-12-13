@@ -6,27 +6,26 @@ import React from 'react'
 export const CartContext = createContext()
 function App() {
   const [cartsUser, setCartsUser] = useState([])
-  const [user, setUser] = useState([])
+  const [user, setUser] = useState({})
   const [count, setCount] = useState(0)
   function getDatas() {
     const userStorage = localStorage.getItem('user')
     if (userStorage) {
       const dataUser = JSON.parse(userStorage)
       setUser(dataUser)
-      const cartStorage = localStorage.getItem(`cart${dataUser[0].id}`)
+      const cartStorage = localStorage.getItem(`cart${dataUser.userid}`)
       if (cartStorage) {
         const dataCartStorage = JSON.parse(cartStorage)
-        console.log(dataCartStorage)
         setCartsUser({
-          userid: dataUser[0].id,
+          userid: dataUser.userid,
           carts: [...dataCartStorage.carts]
         })
       } else {
         const CART = {
-          userid: dataUser[0].id,
+          userid: dataUser.userid,
           carts: []
         }
-        localStorage.setItem(`cart${dataUser[0].id}`, JSON.stringify(CART))
+        localStorage.setItem(`cart${dataUser.userid}`, JSON.stringify(CART))
         setCartsUser(CART)
       }
     } else {
@@ -48,14 +47,12 @@ function App() {
       setCount(0)
     }
   })
-
-
-
   function Abc({page}){
     return(
       <div>{page}</div>
     )
   }
+  
   return (
     <CartContext.Provider value={{
       cartsUser: cartsUser,

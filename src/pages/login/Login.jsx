@@ -20,26 +20,29 @@ export default function Login() {
 
  
   const onSubmit = async (datas) => {
+   
     const res = await axios.get('../../../json/userdatas.json')
     const User_data = res.data.users.filter((user) => user.user_name === datas.user_name && user.password === datas.password)
     if (User_data.length >0) {
-      const User = [{
-        ...User_data[0],
-        token:Math.random()
-      }]
+      const User = {
+        userid : User_data[0].id,
+        token:Math.random(),
+        user_name: User_data[0].user_name
+      }
       localStorage.setItem(`user`,JSON.stringify(User))
-      dataCartsContex.setUser(User)
-      const cartUserStorage = localStorage.getItem(`cart${User[0].id}`)
+      console.log(dataCartsContex)
+      dataCartsContex.setUser(User_data)
+      const cartUserStorage = localStorage.getItem(`cart${User_data[0].id}`)
       if(JSON.parse(cartUserStorage)){
         dataCartsContex.setCartsUser(JSON.parse(cartUserStorage))
       }else{
         const CART = 
           {
-            userid:User[0].id,
+            userid:User.userid,
             carts:[]
           }
         
-        localStorage.setItem(`cart${User[0].id}`,JSON.stringify(CART))
+        localStorage.setItem(`cart${User.userid}`,JSON.stringify(CART))
         dataCartsContex.setCartsUser(CART)
       }
       Navigation('/')
@@ -65,7 +68,7 @@ export default function Login() {
           <div className="col-sm-12 col-lg-6">
             <div className="p-3">
               <form className="p-3 login"  onSubmit={handleSubmit(onSubmit)}>
-                <div>
+                <div className="my-2 position-relative">
                   <label>Tên đăng nhập:</label>
                   <input
                     type="text"
@@ -76,13 +79,13 @@ export default function Login() {
                     })}
                   />
                   {errors.user_name?.type === "minLength" && (
-                    <p className="m-0">vui long nhap toi thieu 8 ki tu</p>
+                    <p className="m-0 message_form">Vui lòng nhập tối thiểu 8 kí tự</p>
                   )}
                   {errors.user_name?.type === "required" && (
-                    <p className="m-0">vui long nhap ten dang nhap</p>
+                    <p className="m-0 message_form">Vui lòng nhập tên đăng nhập</p>
                   )}
                 </div>
-                <div>
+                <div className="my-2 position-relative">
                   <label>Mật khẩu:</label>
                   <input
                     type="password"
@@ -93,10 +96,10 @@ export default function Login() {
                     })}
                   />
                   {errors.password?.type === "minLength" && (
-                    <p className="m-0">vui long nhap toi thieu 8 ki tu</p>
+                    <p className="m-0 message_form">Vui lòng nhập tối thiểu 8 kí tự</p>
                   )}
                   {errors.password?.type === "required" && (
-                    <p className="m-0">vui long nhap mat khau</p>
+                    <p className="m-0 message_form">Vui lòng nhập mật khẩu</p>
                   )}
                 </div>
                 <div className="text-center">

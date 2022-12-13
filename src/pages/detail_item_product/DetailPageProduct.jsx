@@ -1,7 +1,9 @@
 import axios from "axios"
 import { useState, useEffect } from 'react'
 import Product from "../../Components/contentHome/Product"
+import { useNavigate } from 'react-router-dom'
 function DetailItemProduct(props) {
+    const Navigate = useNavigate()
     const [heading, setHeading] = useState([])
     const [products, setProducts] = useState([])
     const getDatas = async () => {
@@ -20,9 +22,10 @@ function DetailItemProduct(props) {
             <div className="container">
                 {heading ? (
                     heading.map((item, index) => {
+                        console.log(item)
                         return (
                             <div key={index} className="py-2">
-                                <h1  className="text-center m-0 heading_item_product">{item.category_name}</h1>
+                                <h1 onClick = {()=> Navigate('/'+item.url)} className="text-center m-0 heading_item_product">{item.category_name}</h1>
                                 <div className="text-center">
                                     <img src={item.img_url_bottom} alt="img" width="25%"/>
                                     </div>

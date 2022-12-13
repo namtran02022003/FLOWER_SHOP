@@ -8,10 +8,12 @@ function HeaderMobile({ count, user, abc, datas }) {
         Navitage(`/${url}`)
         setShowMenu(false)
     }
+   
+  if(user.length > 0){
     return (
         <div className="header_mobile d-flex ">
             <div className='position-relative'>
-                <button onClick={() => setShowMenu(!showMenu)} className='btn_menu_page_mobile'>menu</button>
+                <button onClick={() => setShowMenu(!showMenu)} className='btn_account'><i className="fa-solid fa-bars me-2"></i>Menu</button>
                 {showMenu && <ul className='list_button_ul'>
                     {datas.map(data => (
                         <li onClick={() => handleItem(data.url)} key={data.item}>{data.item}</li>
@@ -19,11 +21,11 @@ function HeaderMobile({ count, user, abc, datas }) {
                 </ul>}
             </div>
             <div className='search_mobile'>
-                    <button className='btn_account' onClick= {()=> Navitage('/search')}>tìm kiếm </button>
+                    <button className='btn_account' onClick= {()=> Navitage('/search')}><i className="fa-solid fa-magnifying-glass "></i> Tìm kiếm</button>
                 </div>
             <div>
                 <div className='d-flex align-items-center position-relative'>
-                    <Link className=' btn-hover p-0 px-lg-3 py-2 ' to="/cart"><i className="cart_icon  fa-sharp fa-solid fa-cart-plus"></i></Link>
+                    <Link className=' btn-hover p-0 px-lg-3 py-2 ' to="/cart"><i className="cart_icon  fa-sharp fa-solid fa-cart-plus "></i></Link>
                     <span className='length_cart'>{count}</span>
                 </div>
             </div>
@@ -38,5 +40,6 @@ function HeaderMobile({ count, user, abc, datas }) {
                
         </div>
     )
+  }
 }
 export default HeaderMobile

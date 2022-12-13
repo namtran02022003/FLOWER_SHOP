@@ -17,6 +17,9 @@ import DetailProduct from "../pages/detailProduct/DetailProduct"
 import UserDetail from "../pages/userDetail/UserDetail"
 import SearchDetail from "../pages/Search/SearchDetail"
 import SearchMobile from "../pages/search_mobile/Search_mobile"
+import HoaLan from "../pages/detail_item_product/HoaLan"
+import HoaHong from "../pages/detail_item_product/HoaHong"
+import HoaTang from "../pages/detail_item_product/HoaTang"
 function NotFound() {
     return (
         <div >not found</div>
@@ -43,6 +46,10 @@ const publicRoutes = [
     { path: '/userdetail', component: UserDetail },
     { path: '/search/:name', component: SearchDetail },
     { path: '/search', component: SearchMobile },
+    { path: '/hoalan', component: HoaLan },
+    { path: '/hoahong', component: HoaHong },
+    { path: '/hoatang', component: HoaTang },
+
     
 ]
 

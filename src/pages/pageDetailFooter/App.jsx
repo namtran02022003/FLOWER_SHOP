@@ -12,7 +12,7 @@ function Apps({ heading }) {
         getDatas()
     }, [])
     return (
-        <div className="container">
+        <div className="container pd_page_footer">
             {datas.map((heading, index) => {
                 return (
                     <h3 className="text-center" key={index}>{heading.title}</h3>

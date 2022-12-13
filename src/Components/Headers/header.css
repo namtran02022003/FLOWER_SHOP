@@ -5,7 +5,9 @@
 .search {
     width: 30%;
 }
-
+.pd_page_footer{
+    padding-top: 2em;
+}
 @media only screen and (max-width: 768px){
     
     .header-button-list{
@@ -14,7 +16,13 @@
     .menu-header{
         display: block !important;
     }
-    
+    .btn_account{
+        padding: 5px 10px !important;
+        font-size: 15px !important;
+    }
+    .pd_page_footer{
+        padding-top: 0;
+    }
 }
 @media only screen and (max-width: 767px){
     .logo{
@@ -22,13 +30,31 @@
         margin: auto;
     }
    .content{
-    padding-top: 200px;
+    padding-top: 130px;
+   }
+   .text-heading-home{
+    font-size: 10px !important;
    }
 }
 @media only screen and (min-width: 767px){
     .content{
         padding-top: 140px;
        }
+}
+@media only screen and (max-width: 420px){
+   
+       .btn_account{
+       padding: 0 5px !important;
+        font-size: 12px !important;
+    }
+    .cart_icon{
+        font-size: 20px !important;
+    }
+    .header_mobile{
+       margin: 20px 0 0 0 !important;
+       text-align: center;
+       width: 100% !important;
+    }
 }
 .header-button-list{
     display: flex;

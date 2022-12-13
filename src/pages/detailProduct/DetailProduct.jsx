@@ -3,6 +3,7 @@ import { useState, useEffect, useRef, useContext, memo } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import './App.css'
 import { CartContext } from "../../App"
+import ListProduct from "./ListProduct"
 function DetailProduct() {
     const [img, setImg] = useState('')
     const [toggleImg, setToggleImg] = useState(false)
@@ -27,10 +28,12 @@ function DetailProduct() {
         const res = await axios.get("../../../json/content.json")
         const dataDetail = res.data.product.filter(product => product.id === Number(id))
         setProductDetail(dataDetail)
+        setImg(dataDetail[0].url_img)
     }
     useEffect(() => {
         getProductDetail()
-    }, [])
+
+    }, [id])
     // const refNext = useRef()
     // const refBack = useRef()
     // useEffect(() => {
@@ -56,7 +59,6 @@ function DetailProduct() {
     const handleCart = (product) => {
         if (dataCartContext.user && dataCartContext.user.length > 0) {
             const dataCart = dataCartContext.cartsUser
-
             const cartCopy = dataCart.carts.slice();
             const index = cartCopy.findIndex((datas) => datas.id === product.id);
             if (index === -1) {
@@ -98,10 +100,9 @@ function DetailProduct() {
     function ZoomImgDetail() {
         const element = document.querySelector('.zoom_img img')
         element.classList.toggle('w-25')
-
     }
     return (
-        <div className="container">
+        <div className="container mt-3">
             {toggleMessage && <Message />}
             {productDetail.map((product, index) => {
                 return (
@@ -109,7 +110,7 @@ function DetailProduct() {
                         <div className="col-12 col-lg-6">
                             <div className="p-2 text-center position-relative">
                                 <div className="imgdetail">
-                                    <img onClick={() => setToggleImg(true)} src={img || product.url_img} alt='img' className="w-50" />
+                                    <img onClick={() => setToggleImg(true)} src={img } alt='img' className="w-50" />
                                 </div>
                                 {toggleImg && (<div className="zoom_img">
                                     <img onClick={() => ZoomImgDetail()} src={img || product.url_img} alt="zoom img" />
@@ -145,7 +146,7 @@ function DetailProduct() {
                     </div>
                 )
             })}
-
+<ListProduct datas = {productDetail} />
         </div>
     )
 }
