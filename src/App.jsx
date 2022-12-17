@@ -52,7 +52,7 @@ function App() {
       <div>{page}</div>
     )
   }
-  
+  console.log(user)
   return (
     <CartContext.Provider value={{
       cartsUser: cartsUser,

@@ -1,7 +1,7 @@
 .click_left,
 .click_right {
     position: absolute;
-    font-size: 40px;
+    font-size: 50px;
     color: #ccc;
     cursor: pointer;
 }
@@ -14,22 +14,23 @@
 .click_left {
     top: 50%;
     transform: translateY(-50%);
-    left: 6%;
+    left: 2%;
 }
 
 .click_right {
     top: 50%;
-    right: 6%;
+    right: 2%;
     transform: translateY(-50%);
 }
 @media only screen and (max-width:768px) {
     .click_left, .click_right{
         font-size: 30px !important;
     }
-    .click_left{
-        left: 10%;
+   
+}
+@media only screen and (max-width:400px) {
+    .click_left, .click_right{
+        font-size: 20px !important;
     }
-    .click_right{
-        right: 10%;
-    }
+    
 }

@@ -7,7 +7,6 @@ import Search from './Search'
 import { CartContext } from '../../App'
 import HeaderMobile from '../HeaderMobile/HeaderMobile'
 function Headers() {
-
     const dataCart = useContext(CartContext)
     const Navigation = useNavigate()
     const [listButtonPage, setListButtonPage] = useState([])
@@ -20,19 +19,15 @@ function Headers() {
     }
     useEffect(() => {
         getDatas()
-       
     }, [])
     const ab = localStorage.getItem('user')
     useEffect(() => {
-       
-
-        setUserDetail(JSON.parse(ab))
+       setUserDetail(JSON.parse(ab))
     },[ab])
-    // console.log('render header top')
-   
     const abc = () => {
         Navigation(`/userdetail`)
     }
+    console.log(userDetail)
     return (
         <div id="headers" className='shadow'>
 
@@ -62,7 +57,7 @@ function Headers() {
                     </div>
                 </div>
                 <div className='d-md-none d-flex'>
-                    <HeaderMobile count = {dataCart.count} user={dataCart.user} abc={abc} datas = {listButtonPage} />
+                    <HeaderMobile count = {dataCart.count} user={userDetail} abc={abc} datas = {listButtonPage} />
                 </div>
             </div>
             <div className='bg_header_bottom shadow py-1 d-none d-md-block'>
@@ -72,4 +67,4 @@ function Headers() {
 
     )
 }
-export default memo(Headers)
+export default Headers

@@ -52,7 +52,8 @@ function Slide() {
     })
 
     return (
-        <div className="px-5  position-relative">
+        <div className="px-5  ">
+            <div className='position-relative'>
             {data.map((url, index) => {
                 return (
                     <div className="my_slides" key={index}>
@@ -62,6 +63,7 @@ function Slide() {
             })}
             <i ref={refBack} className=" click_left fa-solid fa-circle-left"></i>
             <i ref={refNext} className="click_right fa-solid fa-circle-right"></i>
+            </div>
         </div>
     )
 }

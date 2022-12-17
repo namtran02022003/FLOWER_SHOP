@@ -8,8 +8,7 @@ function HeaderMobile({ count, user, abc, datas }) {
         Navitage(`/${url}`)
         setShowMenu(false)
     }
-   
-  if(user.length > 0){
+console.log('headermobile user',user)
     return (
         <div className="header_mobile d-flex ">
             <div className='position-relative'>
@@ -29,9 +28,9 @@ function HeaderMobile({ count, user, abc, datas }) {
                     <span className='length_cart'>{count}</span>
                 </div>
             </div>
-            {user ? (
+            {user && user.userid ? (
                 <div>
-                    {user.map(user => <button className='btn_account' onClick={() => abc()} key={user.id}> <i className="fa-regular mx-2 fa-user"></i>{user.user_name}</button>)}
+                    <button className='btn_account' onClick={() => abc()} > <i className="fa-regular mx-2 fa-user"></i>{user.user_name}</button>
                 </div>
             ) :
                 <div className='position-relative'>
@@ -40,6 +39,6 @@ function HeaderMobile({ count, user, abc, datas }) {
                
         </div>
     )
-  }
+  
 }
 export default HeaderMobile

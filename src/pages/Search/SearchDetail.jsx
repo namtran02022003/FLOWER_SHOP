@@ -16,10 +16,8 @@ export default function SearchDetail() {
               
                 if (a.indexOf(b) === -1) {
                 } else {
-                    arr.push(product)
-                  
+                    arr.push(product)                  
                 }
-                
             })
             setData(arr)
         }

@@ -9,7 +9,7 @@ import { useState, useEffect,useRef,useContext } from 'react'
 import { CartContext } from "../../App";
 export default function Login() {
   const dataCartsContex = useContext(CartContext)
-  const [user, setUser] = useState([])
+
   const refMessage = useRef()
   const Navigation = useNavigate()
   const {
@@ -119,7 +119,7 @@ export default function Login() {
                     <img src={Url_ins} alt="gg" width="50px" title="facebook" />
                   </p>
                 </div>
-                <p>bạn chưa có tài khoản? đăng ký ngay</p>
+                <p>bạn chưa có tài khoản? <b onClick={()=> Navigation('/register')}>đăng ký ngay</b></p>
               </form>
             </div>
           </div>
